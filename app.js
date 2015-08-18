@@ -1,8 +1,8 @@
 var express = require('express');
 var busboy = require('connect-busboy'); //middleware for form/file upload
 var path = require('path');     //used for file path
-var fs = require('fs-extra');
-var favicon = require('serve-favicon');
+//var fs = require('fs-extra');
+//var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -20,7 +20,7 @@ var connection = mysql.createConnection({
   database : 'localisationportal'
 });
 
-connection.connect();
+//connection.connect();
 
 var app = express();
 
