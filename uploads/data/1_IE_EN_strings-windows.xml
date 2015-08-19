@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="aboutCopyrightLabel">Copyright © Synchronoss Technologies, Inc. 2015</string>
+<string name="aboutTitle">About ${PRODUCT_NAME}</string>
+<string name="aboutTrademarkLabel"></string>
+<string name="accountDisconnectButtonLabel">Disconnect Account</string>
+<string name="accountDisconnectConfirmationMessageText">Changes on your PC will no longer be updated in your ${SHORT_PRODUCT_NAME} account and accessible from other devices.
+
+Do you wish to continue?</string>
+<string name="accountDisconnectNarrativeLabel">Disconnect to change user account</string>
+<string name="accountSettingsGroupLabel">Account</string>
+<string name="apiRequestFailedPermanentlyLabel">The request cannot be completed at this time, please try again later</string>
+<string name="apiRequestFailedPleaseTryAgainLabel">The request has failed, try again?</string>
+<string name="applyButton">Apply</string>
+<string name="cancelButton">Cancel</string>
+<string name="capacityLabel">You are using 98% of your 2GB storage</string>
+<string name="changeAccountContinueCheckbox">Continue using new account</string>
+<string name="changeAccountContinueLabel">Please note: Files will no longer sync to the local ${PRODUCT_NAME} folder used for that account, no files or folders will be deleted. Content in that account's ${PRODUCT_NAME} folder will not be affected.  </string>
+<string name="changeAccountDifferentAccountLabel">The account information you entered is different from that previously used.</string>
+<string name="changeAccountTitle">Please Confirm Change Of Account</string>
+<string name="clearButton">Clear</string>
+<string name="closeButton">Close</string>
+<string name="confirmButton">Confirm</string>
+<string name="contentSyncedToLabel">Content for this account will be synced to:</string>
+<string name="copyButton">Copy</string>
+<string name="dashboardBackupAddAFolderButton">Add Folder</string>
+<string name="dashboardBackupBrowseForFolderLabel">select a folder for Backup</string>
+<string name="dashboardBackupCalculating">calculating…</string>
+<string name="dashboardBackupConfirmStopBackup">Are you sure you want to stop backup of this folder?</string>
+<string name="dashboardBackupDetailsLabel">Details</string>
+<string name="dashboardBackupEmptyListLabel">You are not backing up from this computer</string>
+<string name="dashboardBackupEmptyListSubLabel1">Click "Add Folder" to select a folder for Backup</string>
+<string name="dashboardBackupEmptyListSubLabel2">Click "Restore" to download a backed up folder</string>
+<string name="dashboardBackupFolderAlreadySelected">The selected folder "{0}" has already been selected for backup to ${PRODUCT_NAME}</string>
+<string name="dashboardBackupFolderBlocked">You are not permitted to backup the folder "{0}" to ${PRODUCT_NAME}</string>
+<string name="dashboardBackupFolderIsChild">The folder "{0}" has already been identified for backup within the folder "{1}".</string>
+<string name="dashboardBackupFolderIsParent">Content within "{0}" is currently marked for backup. Existing backup(s) will be removed and will be included in the backup of "{0}".</string>
+<string name="dashboardBackupFolderNameLabel">Name:</string>
+<string name="dashboardBackupFolderTooLarge">The selected folder "{0}" is too large to be backed up to ${PRODUCT_NAME}</string>
+<string name="dashboardBackupHeaderLabel">Backup Folders</string>
+<string name="dashboardBackupOpenFolderLabel">Open Folder</string>
+<string name="dashboardBackupRestoreDialogHeaderLabel">Restore folders backed up from ${PRODUCT_NAME}</string>
+<string name="dashboardBackupRestoreDuplicateFolderWarning">One or more folders, with the same name already exist at "{0}". Do you wish to continue?</string>
+<string name="dashboardBackupRestoreFolderButton">Restore</string>
+<string name="dashboardBackupRestoreInvalidPath">You may not restore files to "{0}". Please choose another destination to restore your files/folders to.</string>
+<string name="dashboardBackupRestoreNotEnoughSpace">The destination you have chosen to restore to does not have enough space for the number and/or size of files selected. Please choose another destination.</string>
+<string name="dashboardBackupRestoreSelectionStats">{0} files selected. Selection size {1}.</string>
+<string name="dashboardBackupStopBackupLabel">Stop Backup</string>
+<string name="dashboardBackupTitle">Backup</string>
+<string name="dashboardBackupTotalFilesLabel">Total Files:</string>
+<string name="dashboardBackupTotalFoldersLabel">Total Folders:</string>
+<string name="dashboardBackupTotalSpaceLabel">Total Space:</string>
+<string name="dashboardMusicDescriptiveLabel">Upload your music to ${PRODUCT_NAME} and listen from all your devices</string>
+<string name="dashboardMusicFindMusicButton">Find Music</string>
+<string name="dashboardMusicFurtherDescriptiveLabel">(You can then listen to this music from other devices)</string>
+<string name="dashboardMusicNoITunesLabel">No iTunes library detected</string>
+<string name="dashboardMusicStatusCompleteLabel">Upload Complete</string>
+<string name="dashboardMusicStatusInProgressLabel">Upload In Progress</string>
+<string name="dashboardMusicStatusLabel">Status:</string>
+<string name="dashboardMusicTitle">Music</string>
+<string name="dashboardMusicUploadsGroup">Music Upload</string>
+<string name="dashboardRestoreBrowseForFolderLabel"></string>
+<string name="dashboardSettingsAccountDetails">[{0}]</string>
+<string name="dashboardSettingsChangeProxySettingsButton">Proxy Settings</string>
+<string name="dashboardSettingsEnablePopupNotificationsCheckbox">Enable popups</string>
+<string name="dashboardSettingsFeaturesGroup">Features</string>
+<string name="dashboardSettingsInsertProxyCredentialsButton">Insert Proxy Credentials</string>
+<string name="dashboardSettingsLaunchOnStartupCheckbox">Launch on startup</string>
+<string name="dashboardSettingsNotificationsGroup">Notification Settings</string>
+<string name="dashboardSettingsProxyGroup">Proxy</string>
+<string name="dashboardSettingsProxyLoginButton">Proxy Login</string>
+<string name="dashboardSettingsProxyNarrativeLabel">Configure proxy settings to connect to the network</string>
+<string name="dashboardSettingsRememberMeCheckbox">Remember me</string>
+<string name="dashboardSettingsShowDashboardOnStartupCheckbox">Show Dashboard on login</string>
+<string name="dashboardSettingsSmartFoldersCheckbox">Enable Smart Folders</string>
+<string name="dashboardSettingsSmartFoldersGroup">Smart Folders</string>
+<string name="dashboardSettingsSmartFoldersNarrative">When you back up folders containing photos we'll automatically turn them into photo albums</string>
+<string name="dashboardSettingsStartupGroup">General</string>
+<string name="dashboardSettingsTitle">Settings</string>
+<string name="dashboardSettingsUseProxyCredentialsText">Use Proxy Credentials</string>
+<string name="dashboardSummaryActivityNone">No Activity</string>
+<string name="dashboardSummaryBackupGroup">Backup</string>
+<string name="dashboardSummaryBackupStatus">Backup status:</string>
+<string name="dashboardSummaryGroup">Your ${PRODUCT_NAME}</string>
+<string name="dashboardSummaryLinkMoreSpace">Get more space</string>
+<string name="dashboardSummaryLinkOpenSyncDrive">Open</string>
+<string name="dashboardSummaryLoggedInAs">Logged in as {0}</string>
+<string name="dashboardSummaryLoggedInPendingLabel"></string>
+<string name="dashboardSummaryManageBackupsButton">Manage Backups</string>
+<string name="dashboardSummaryStatus">Status: {0}</string>
+<string name="dashboardSummaryStorageLabel">Storage: </string>
+<string name="dashboardSummarySyncGroup">Sync</string>
+<string name="dashboardSummarySyncLocalPathLink">Open ${SHORT_PRODUCT_NAME}</string>
+<string name="dashboardSummarySyncSelectiveSyncButton">Sync</string>
+<string name="dashboardSummaryTab">Summary</string>
+<string name="dashboardSummaryTitle">Summary</string>
+<string name="dashboardSummaryUpdateButton">Update ${SHORT_PRODUCT_NAME}</string>
+<string name="dashboardSummaryUpdateLabel">New software version available</string>
+<string name="dashboardSummaryUpdateNarrativeLabel">${PRODUCT_NAME} {0} now available
+Your currently installed version is {1}</string>
+<string name="dashboardTitle">${PRODUCT_NAME} Dashboard</string>
+<string name="dashboardTransfersFileRemainingLabel">${PRODUCT_NAME} File remaining ({1:D2}:{2:D2}:{3:D2})</string>
+<string name="dashboardTransfersFilesRemainingLabel">${PRODUCT_NAME} Files remaining ({1:D2}:{2:D2}:{3:D2})</string>
+<string name="dashboardTransfersTitle">Transfers</string>
+<string name="dashboardTransfersUpgradeLink">Upgrade</string>
+<string name="downloadDescriptionLabel">Downloading ${PRODUCT_NAME} v{0}</string>
+<string name="downloadTitle">Downloading ${PRODUCT_NAME} Update</string>
+<string name="errorAnotherUserInstanceRunning">Another instance of ${PRODUCT_NAME} is already running for another user.</string>
+<string name="errorMandatoryUpdateDownload">There was an error downloading an update for ${PRODUCT_NAME}. You may try downloading this update later by selecting "Install Available Update" in the application's main menu. Syncing and backups will be paused until the update is installed.</string>
+<string name="errorRetrievingOfflineCachedData">There was a problem starting ${PRODUCT_NAME} in offline mode. Please connect to the internet and restart the application.</string>
+<string name="errorSncConfiguration">Unable to contact configuration server</string>
+<string name="errorUpdateFailMandatory">The update to ${PRODUCT_NAME} failed to install. This update is required. Syncing and backups will be paused until the update is installed. Please ensure you have an internet connection and re-start ${PRODUCT_NAME}.</string>
+<string name="errorUpdateFailVoluntary">The update to ${PRODUCT_NAME} failed to install. The update will be attempted the next time you start ${PRODUCT_NAME}.</string>
+<string name="errorVoluntaryUpdateDownload">There was an error downloading an update for ${PRODUCT_NAME}. You may try downloading this update later by selecting "Install Available Update" in the application's main menu.</string>
+<string name="favouritesLinkOpen">Open</string>
+<string name="finishButton">Finish</string>
+<string name="formatCapacityUsed">{0} ({1:0.0}%) of {2}</string>
+<string name="formatMusicUploadProgress">Uploaded {0:#,###0} ({1}) of {2:#,###0} ({3}) songs</string>
+<string name="formatTimestampAboutAMinuteAgo">About a minute ago</string>
+<string name="formatTimestampAboutAnHourAgo">about an hour ago</string>
+<string name="formatTimestampDaysAgo">{0} days ago</string>
+<string name="formatTimestampHoursAgo">{0} hours ago</string>
+<string name="formatTimestampJustNow">Just now</string>
+<string name="formatTimestampMinutesAgo">{0} minutes ago</string>
+<string name="formatTimestampYesterday">Yesterday</string>
+<string name="getPublicLink">Get public link</string>
+<string name="labelTrashLink">Open Trash</string>
+<string name="legacyUpdateNarrative">Please wait while ${PRODUCT_NAME} performs an update...</string>
+<string name="legacyUpdateOldClientRunning">We have detected that {0} is running on your PC. Please shut down {0} and hit "OK" before resuming your update</string>
+<string name="legacyUpdateStatusComplete">Update complete! Please press OK to continue.</string>
+<string name="legacyUpdateStatusFinalisingChanges">Finalising changes</string>
+<string name="legacyUpdateStatusMovingFiles">Moving {0} files ({1})</string>
+<string name="legacyUpdateStatusScopingDatabase">Finding out what needs to be updated in your database</string>
+<string name="legacyUpdateStatusScopingSize">Finding out how many files are to be moved</string>
+<string name="legacyUpdateStatusUpdatingDatabase">Updating {0} records in your Backup database</string>
+<string name="LicenseAgreement">
+Synchronoss Personal Cloud LICENSE AGREEMENT
+
+Notice to User: This Synchronoss Personal Cloud License Agreement is a CONTRACT between you (either an individual or a single entity) and Synchronoss which covers your use of the Synchronoss software that accompanies this License Agreement and related software components, which may include associated media, printed materials, and "online" or electronic documentation. All such software and materials are referred to herein as the "Software." If you do not agree to the terms of this License Agreement, then do not install or use the Software. By explicitly accepting this License Agreement, however, or by installing, copying, downloading, accessing, or otherwise using the Software, you are acknowledging and agreeing to be bound by the following terms.
+
+1. DEFINITIONS.
+
+(a) "Software" shall mean Synchronoss' software, in object form only, excluding any Open Source Software provided with such software, and the media and Documentation provided by Synchronoss to Licensee and for which Licensee is granted a use license pursuant to this Agreement.
+
+(b) "Documentation" shall mean the printed or online written reference material furnished to Licensee in conjunction with the Software, including, without limitation, instructions, testing guidelines, and end user guides.
+
+(c) "Intellectual Property Rights" shall mean all intellectual property rights, including, without limitation, patent, copyright, trademark, and trade secret.
+
+(d) "Open Source Software" means various open source software components provided with the Software that are licensed to you under the terms of the applicable license agreements included with such open source software components or other materials for the Software.
+
+(e) "Updates" shall mean a modification, error correction, bug fix, new release, or other update to or for the Software.
+
+2. LICENSE GRANT, USE AND OWNERSHIP
+
+(a) Limited License. Subject to the terms and conditions of this Agreement, Synchronoss grants to Licensee a non-exclusive, non-transferable license (without the right to sublicense) (i) to use the Software in accordance with the Documentation solely for internal purposes of testing and evaluating the Notification behaviour of Synchronoss products, (ii) to use the Documentation provided with the Software in support of Licensee's authorized use of the Software, and (iii) to copy Software for archival or backup purposes, provided that all titles and trademarks, copyright, and restricted rights notices are reproduced on such copies.
+
+(b) Evaluation Feedback. Licensee shall provide feedback, suggestions or ideas to Synchronoss concerning the functionality and performance of the Software from time to time as reasonably requested by Synchronoss, including, without limitation, identifying potential errors and improvements. Such feedback will be in a manner convenient to Licensee and will be subject to reasonable availability of Licensee's personnel. Notwithstanding the foregoing, prior to Licensee disclosing to Synchronoss any information in connection with this Agreement which Licensee considers proprietary or confidential, Licensee shall obtain Synchronoss' prior written approval to disclose such information to Synchronoss, and without such prior written approval from Synchronoss, Licensee shall not disclose any such information to Synchronoss. Feedback, suggestions, ideas and other information which is provided by Licensee to Synchronoss in connection with the Software or this Agreement will become the property of Synchronoss and may be used by Synchronoss to improve or enhance its products and, accordingly, Synchronoss shall have a non-exclusive, perpetual, irrevocable, royalty-free, worldwide right and license to use, reproduce, disclose, sublicense, distribute, modify, and otherwise exploit such feedback, suggestions, ideas and information without restriction. No obligation is assumed or may be implied on the part of Synchronoss by receipt or examination of the submission to use the feedback, suggestion or idea, compensate or otherwise enter into another agreement with Licensee. For avoidance of doubt, this section does not apply to any Open Source Software accompanying the Software.
+
+(c) Restrictions. Licensee shall not copy or use the Software (including the Documentation) except as expressly permitted in this Agreement. Licensee will not, and will not permit any third party to, sublicense, rent, copy, modify, create derivative works of, translate, reverse engineer, decompile, disassemble, or otherwise reduce to human perceivable form any portion of the Software or accompanying Documentation. In no event shall Licensee use the Software for Licensee's product development or any other commercial purpose. The Software and all performance data and test results, including without limitation, benchmark test results (collectively "Performance Data"), relating to the Software are the Confidential Information of Synchronoss, and will be treated in accordance with the terms of Section 4 of this Agreement. Accordingly, Licensee shall not publish or disclose to any third party any Performance Data relating to the Software.
+
+(d) Ownership. Synchronoss shall own and retain all right, title and interest in and to the Intellectual Property Rights in the Software and any derivative works thereof, subject only to the limited license expressly set forth in Section 2(a) hereof. Licensee does not acquire any other rights, express or implied, in the Software. ALL RIGHTS NOT EXPRESSLY GRANTED HEREUNDER ARE RESERVED TO Synchronoss.
+
+(e) No Support Services. Synchronoss is under no obligation to support the Software in any way or to provide any Updates to Licensee. In the event Synchronoss, in its sole discretion, supplies any Update to Licensee via a designated website by Synchronoss, such Update shall be deemed Software hereunder and shall be subject to the terms and conditions of this Agreement.
+
+3. TERM AND TERMINATION. This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated. You and or Synchronoss each may terminate this Agreement for any reason at any time. Upon any expiration or termination of rights with respect to the Software under this Agreement, the rights and licenses granted to Licensee under this Agreement shall immediately terminate, and Licensee shall immediately cease using, and will return to Synchronoss (or, at Synchronoss' request, destroy), the Software, Documentation, and all other tangible items in licensees possession or control that are proprietary to or contain Confidential Information. The rights and obligations of the parties set forth in Sections 2(b) 2(c), 2(d), 2(e), , 3, 4, 5, 6 and 7 shall survive termination or expiration of this Agreement for any reason.
+
+4. CONFIDENTIALITY. "Confidential Information" shall mean all trade secrets, know-how, inventions, techniques, processes, algorithms, software programs, hardware, schematics, and software source documents relating to the Software, and other information provided by Synchronoss, whether disclosed orally, in writing, or by examination or inspection, other than information which Licensee can demonstrate (i) was already known to Licensee, other than under an obligation of confidentiality, at the time of disclosure; (ii) was generally available in the public domain at the time of disclosure to Licensee; (iii) became generally available in the public domain after disclosure other than through any act or omission of Licensee; (iv) was subsequently lawfully disclosed to Licensee by a third party without any obligation of confidentiality; or (v) was independently developed by Licensee without use of or reference to any information or materials disclosed by Synchronoss or its suppliers. Confidential Information shall include without limitation the Software, Documentation, Performance Data, and any Updates. Licensee shall not use any Confidential Information for any purpose other than as expressly authorized under this Agreement. In no event shall Licensee use the Software or any Confidential Information to develop, manufacture, market, sell, or distribute any product or service. Licensee shall limit dissemination of Confidential Information to its employees who have a need to know such Confidential Information for purposes expressly authorized under this Agreement. In no event shall Licensee disclose any Confidential Information to any third party. Without limiting the foregoing, Licensee shall use at least the same degree of care that it uses to prevent the disclosure of its own confidential information of like importance, but in no event less than reasonable care, to prevent the disclosure of Confidential Information.
+
+5. LIMITATION OF LIABILITY. IT IS UNDERSTOOD THAT THE SOFTWARE IS PROVIDED WITHOUT CHARGE FOR LIMITED EVALUATION PURPOSES. ACCORDINGLY, IN NO EVENT SHALL Synchronoss OR ITS SUPPLIERS HAVE LIABILITY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, OR LOSS OF BUSINESS INFORMATION), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF Synchronoss AND ITS SUPPLIERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+6. WARRANTY DISCLAIMER. IT IS UNDERSTOOD THAT THE SOFTWARE, DOCUMENTATION, AND ANY UPDATES MAY CONTAIN ERRORS AND ARE PROVIDED FOR LIMITED EVALUATION ONLY. THE SOFTWARE, THE DOCUMENTATION, AND ANY UPDATES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE. Synchronoss AND ITS SUPPLIERS SPECIFICALLY DISCLAIM ALL IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.
+
+7. OTHER PROVISIONS
+
+(a) Governing Law. This Agreement, and all disputes arising out of or related thereto, shall be governed by and construed under the laws of Ireland. All such disputes shall be subject to the exclusive jurisdiction of the courts located in Ireland, and the parties agree and submit to the personal and exclusive jurisdiction and venue of these courts.
+
+(b) Assignment. Licensee shall not assign this Agreement or any rights or obligations hereunder, directly or indirectly, by operation of law, merger, acquisition of stock or assets, or otherwise, without the prior written consent of Synchronoss. Subject to the foregoing, this Agreement shall inure to the benefit of and be binding upon the parties and their respective successors and permitted assigns.
+
+(c) Modification. This is the entire agreement between the parties relating to the subject matter hereof and all other terms are rejected. No waiver or modification of this Agreement shall be valid unless in writing signed by each party. The waiver of a breach of any term hereof shall in no way be construed as a waiver of any term or other breach hereof. If any provision of this Agreement is held by a court of competent jurisdiction to be contrary to law the remaining provisions of this Agreement shall remain in full force and effect.
+
+8. CONTACT INFORMATION. If you have any questions about this Synchronoss SyncDrive License Agreement, or if you want to contact Synchronoss for any reason, please direct all correspondence to: Synchronoss Software Limited, The Academy, 42 Pearse Street, Dublin 2 or email info@Synchronoss.com.
+            </string>
+<string name="linkFaqs">FAQs</string>
+<string name="linkForgotPassword">Forgot password?</string>
+<string name="linkNotYetRegistered">New user?</string>
+<string name="loginButton">Login</string>
+<string name="loginPasswordLabel">Password</string>
+<string name="loginRememberMeCheckbox">Remember me</string>
+<string name="loginTitle">Login</string>
+<string name="loginUsernameLabel">Username</string>
+<string name="manageBackupsButton">Manage Backups</string>
+<string name="menuAbout">About ${PRODUCT_NAME}</string>
+<string name="menuCheckForUpdate">Check for Update</string>
+<string name="menuCloudWebsite">${PRODUCT_NAME} Website</string>
+<string name="menuContextCreateShare">Create Share</string>
+<string name="menuContextDeleteShare">Delete Share</string>
+<string name="menuContextOpenLocation">Open file location</string>
+<string name="menuContextSendTo">Copy to ${SHORT_PRODUCT_NAME}</string>
+<string name="menuDashboard">Show Dashboard</string>
+<string name="menuExit">Exit</string>
+<string name="menuHelp">Help</string>
+<string name="menuHelpExpand">Help</string>
+<string name="menuLogout">Logout</string>
+<string name="menuOnlineHelp">Online Help</string>
+<string name="menuOpenLocalFolder">Open ${PRODUCT_NAME}</string>
+<string name="menuOpenLogFolder">Show ${PRODUCT_NAME} Logs</string>
+<string name="menuOpenSyncDrive">Open ${SHORT_PRODUCT_NAME}</string>
+<string name="menuPause">Pause</string>
+<string name="menuResume">Resume</string>
+<string name="menuSyncDriveCloudWebsite">${PRODUCT_NAME} Website</string>
+<string name="menuUpdateAvailable">Install Available Update</string>
+<string name="menuUpgrade">Upgrade Storage</string>
+<string name="menuUsageNotLoggedIn">(Usage not available until you log in)</string>
+<string name="menuWizard">Show Wizard</string>
+<string name="messageAccountLocked">You have exceeded the number of unsuccessful password entry attempts and your account has been locked, please contact your IT Administrator to have your password reset.</string>
+<string name="messageAuthenticating">Authenticating...</string>
+<string name="messageAutoplayPrompt">Upload your files</string>
+<string name="messageB">B</string>
+<string name="messageBackupComplete">All files backed up</string>
+<string name="messageBackupErrors">Backup errors</string>
+<string name="messageBackupPaused">Backup paused</string>
+<string name="messageBackupPending">Backup pending</string>
+<string name="messageBackupProgress">Backup in progress</string>
+<string name="messageByte">Byte</string>
+<string name="messageBytes">Bytes</string>
+<string name="messageConfirmDeleteMusic">Are you sure you want to cancel your upload? Music already uploaded will remain in ${PRODUCT_NAME}</string>
+<string name="messageDownloadBlocked">The file "{0}" was not synced because it contains disallowed characters</string>
+<string name="messageGB">GB</string>
+<string name="messageIdamFailure">Idam failure</string>
+<string name="messageKB">KB</string>
+<string name="messageLoggedIn">Logged in - you are using </string>
+<string name="messageMB">MB</string>
+<string name="messageNeedNetworkOnFirstRun">An internet connection is required to launch this application for the first time.</string>
+<string name="messageNoTransfers">No recent transfers</string>
+<string name="messageOfflineNotification">${PRODUCT_NAME} is currently offline. Sync and backup will resume when the connection is restored.</string>
+<string name="messagePasswordReset">You must change your password to continue. A link has been sent to you via email for this purpose – please click the link in this email to proceed.</string>
+<string name="messagePB">PB</string>
+<string name="messageSyncComplete">All files in sync</string>
+<string name="messageSyncDeniedError">Can't sync "{0}" (permission denied)</string>
+<string name="messageSyncErrors">Sync errors</string>
+<string name="messageSyncForbiddenError">Can't sync "{0}" (not allowed)</string>
+<string name="messageSyncPaused">Sync paused</string>
+<string name="messageSyncPending">Sync pending</string>
+<string name="messageSyncProgress">Sync in progress</string>
+<string name="messageTarrifRedirectPart1">Your ${PRODUCT_NAME} registration is not complete. Please click </string>
+<string name="messageTarrifRedirectPart2">here</string>
+<string name="messageTarrifRedirectPart3"> to complete your registration.</string>
+<string name="messageTB">TB</string>
+<string name="messageTrashUsingXpercentageOfStorage">Your trashcan is currently consuming  {0} ({1:0.0}%) of your storage</string>
+<string name="messageUpdateInstructions">This update may be downloaded by selecting "Install Available Update" in the application's main menu</string>
+<string name="messageYouAreUsingXpercentageOfYourStorage">You are currently using {0} ({1:0.0}%) of your {2} storage</string>
+<string name="musicSelectionAvailableLabel">available</string>
+<string name="musicSelectionColumnAlbumLabel">Album</string>
+<string name="musicSelectionColumnArtistLabel">Artist</string>
+<string name="musicSelectionColumnTrackLabel">Song</string>
+<string name="musicSelectionFoundLabel"> found</string>
+<string name="musicSelectionInformationCompleteLabel">Music ready for upload</string>
+<string name="musicSelectionInformationLoadError">There was an error retrieving your music. Please try again later.</string>
+<string name="musicSelectionInformationLoadingLabel">Loading your music library...</string>
+<string name="musicSelectionInformationNotEnoughSpace">There is not enough space for the songs selected. Please change your selection.</string>
+<string name="musicSelectionLinkToTracksLabel">Select songs to upload</string>
+<string name="musicSelectionSelectedLabel">songs selected</string>
+<string name="musicSelectionSeparatorLabel">of</string>
+<string name="musicSelectionSongsLabel"> songs</string>
+<string name="musicSelectionStartUploadButton">Start Upload</string>
+<string name="musicSelectionTitle">Upload iTunes Music to ${PRODUCT_NAME}</string>
+<string name="musicSelectionUnknownAlbumLabel">Unknown Album</string>
+<string name="musicSelectionUnknownArtistLabel">Unknown Artist</string>
+<string name="nextButton">Next</string>
+<string name="noButton"></string>
+<string name="okButton">OK</string>
+<string name="playlistCreated">A Smart Folder with the name "{0}" has been created</string>
+<string name="playlistUpdated">A Smart Folder with the name "{0}" has been updated</string>
+<string name="previousButton">Previous</string>
+<string name="proxyAuthenticationLabel">${PRODUCT_NAME} requires the username and password for the proxy server used by this computer in order to proceed.</string>
+<string name="proxyAuthenticationTitle">Proxy Settings</string>
+<string name="proxyPasswordLabel">Password:</string>
+<string name="proxyUsernameLabel">Username:</string>
+<string name="selectiveSyncApplyButton">Apply</string>
+<string name="selectiveSyncErrorRetrievalFolderDetailsMessage">There was an error retrieving your folder's details. Please try again later.</string>
+<string name="selectiveSyncFolderRemoved">The folder containing this file was unselected for sync and removed from this computer. This file is available in your ${PRODUCT_NAME}.</string>
+<string name="selectiveSyncHeaderLabel">Selected folders will be downloaded to this computer and will sync across all your devices. Unselected folders will not download but will remain in your ${SHORT_PRODUCT_NAME}.</string>
+<string name="selectiveSyncLoadingNode">Loading...</string>
+<string name="selectiveSyncNoFoldersMessage">There are no folders available to select</string>
+<string name="selectiveSyncNotAvailableWhenPaused">This feature is not available when ${PRODUCT_NAME} is paused.</string>
+<string name="selectiveSyncOneTimeWarningMessage">Unselected folders will be removed from this computer. These folders will remain in your ${PRODUCT_NAME} and can still be accessed from the web, mobile and other computers. Unsynced data will be lost.</string>
+<string name="selectiveSyncOneTimeWarningTitle">Update Selective Sync Settings</string>
+<string name="selectiveSyncOneUnappliedChangesWarningMessage">You have made unsaved changes. Unselected folders will be removed from this computer. These folders will remain in your ${PRODUCT_NAME} and can still be accessed from the web, mobile and other computers. Unsynced data will be lost. Do you wish to apply these changes?</string>
+<string name="selectiveSyncRetry">Retry</string>
+<string name="selectiveSyncSelectAll">Sync all folders</string>
+<string name="selectiveSyncTitle">Manage Sync Folders</string>
+<string name="sharedLinkDialogCopyToClipBoardButton">Copy to Clipboard</string>
+<string name="sharedLinkDialogNotCreatedLabel">The file or folder couldn't be shared, please try again.</string>
+<string name="sharedLinkDialogTitle">Shared link creation</string>
+<string name="sharedLinkDialogTitleLabel">The following public link has been created, click on the link below to open it in your browser:</string>
+<string name="sharedLinkDialogTryAgainButton">Try Again</string>
+<string name="syncFolderBrowseLocationHeader">Select the location of your ${PRODUCT_NAME} folder. A folder called ${PRODUCT_NAME} will be created in the folder you select.</string>
+<string name="syncFolderChangeButton">Change</string>
+<string name="syncFolderChangeConfirmation">This will move your ${PRODUCT_NAME} folder and all its files to "{0}".</string>
+<string name="syncFolderChangeInUse">There are files and/or folders in use in your ${PRODUCT_NAME} folder. Please close these before changing the ${PRODUCT_NAME} folder location.</string>
+<string name="syncFolderContainsSyncFolder">"{0}" already contains as folder called "{1}". Please choose another location.</string>
+<string name="syncFolderInvalidDrive">The drive for the folder "{0}" is not valid for the location of the ${PRODUCT_NAME} folder.</string>
+<string name="syncFolderInvalidFolder">You cannot use "{0}" as the location of your ${PRODUCT_NAME} folder.</string>
+<string name="syncFolderLocation">${PRODUCT_NAME} folder location</string>
+<string name="syncFolderLocationChangeLabel">This is the current location of your ${PRODUCT_NAME} folder:</string>
+<string name="syncFolderLocationChangeNotWhenPausedLabel">Cannot be changed when Sync is paused.</string>
+<string name="syncFolderLocationMovingLabel">Moving of sync folder in progress.</string>
+<string name="syncFolderMoveFailed">The move of your ${PRODUCT_NAME} folder to {0} has failed. Please try again later.</string>
+<string name="systrayAllSyncedTooltip">${PRODUCT_NAME} - All files in sync</string>
+<string name="systrayBackupPendingTooltip">${PRODUCT_NAME} - Backup pending</string>
+<string name="systrayErrorTooltip">${PRODUCT_NAME} - {0}</string>
+<string name="systrayFileChangedBalloon">Sync complete: 1 file was processed</string>
+<string name="systrayFilesChangedBalloon">Sync complete: {0} files were processed</string>
+<string name="systrayLoggedInAsBalloon">You are Logged in as {0}</string>
+<string name="systrayLoggedOutTooltip">${PRODUCT_NAME} - Logged out</string>
+<string name="systrayNewFilesBalloon">New files have been added to your ${PRODUCT_NAME}</string>
+<string name="systrayPausedTooltip">${PRODUCT_NAME} - Paused</string>
+<string name="systrayRestoringBalloon">Restore has been scheduled - check progress in the Transfers view</string>
+<string name="systraySelectedFolderIsTooLargeBalloon">Selected folder is too large to be backed up to ${PRODUCT_NAME}</string>
+<string name="systraySelectedFolderIsTooLargeExtraTextBalloon">${PRODUCT_NAME} free space is {0}, folder size is {1}</string>
+<string name="systrayStorageMaxedBalloon">Using 100% of available storage</string>
+<string name="systrayStorageNowAvailableBalloon">There is now enough available storage on your ${PRODUCT_NAME} for uploads to resume</string>
+<string name="systraySyncingBalloon">Syncing...</string>
+<string name="systraySyncingTooltip">${PRODUCT_NAME} - Syncing...</string>
+<string name="systraySyncPendingTooltip">${PRODUCT_NAME} - Sync pending</string>
+<string name="systrayVoluntaryUpdateBalloon">Version {0} of ${PRODUCT_NAME} is now available</string>
+<string name="transferErrorFileConflicted">This file was in a Conflicted state.</string>
+<string name="transferUpgradeSpaceLinkText">Upgrade</string>
+<string name="transferErrorFileNotFound">The file could not be found in ${PRODUCT_NAME}; it may have been deleted, check your Trash to recover it.</string>
+<string name="transferErrorFileNotFoundLocally">The file is no longer available locally, it may not be accessible or has been deleted.</string>
+<string name="transferErrorFileTooLarge">This file size exceeds the available space. </string>
+<string name="transferErrorTimeOutOrServiceNotAvailable">Server temporarily unavailable.</string>
+<string name="transferFileGenericError">The file could not be processed.</string>
+<string name="transferfileProcessingText">Processing multiple files...</string>
+<string name="transferfilesProcessingCompleteText">Processing complete</string>
+<string name="transferRemainingFilesManyText">Processing: {0} files remaining...</string>
+<string name="transferRemainingFilesSingleText">Processing: 1 file remaining...</string>
+<string name="transferRemainingMinutesText">about {0} minutes remaining</string>
+<string name="transferShowAllLabel">All</string>
+<string name="transferShowErrorLabel">Errors</string>
+<string name="updateDeclineButton">Decline</string>
+<string name="updateDownloadAndInstallButton">Install</string>
+<string name="updateMandatoryLabel">${PRODUCT_NAME} must perform an update to version {0}. ${PRODUCT_NAME} will restart once the update is complete.</string>
+<string name="updateNotAvailableUpToDateLabel">${PRODUCT_NAME} is up to date.</string>
+<string name="updateReminderDontShowAgainCheckbox">Don't show this warning again</string>
+<string name="updateRemindMeLaterButton">Remind me later</string>
+<string name="updaterTitle"></string>
+<string name="updateTitle">${PRODUCT_NAME} Update</string>
+<string name="updateVoluntaryLabel">Version {0} of ${PRODUCT_NAME} is now available. This update contains a number of improvements and additions. Would you like to install it?</string>
+<string name="upgradeButton">Upgrade Storage</string>
+<string name="UserContentCacheFolder">${PRODUCT_NAME}.UserContentCache</string>
+<string name="warningAuthenticationFailed">Authentication failed. Please try again.</string>
+<string name="warningCancelledupdateMandatory">Your version of ${PRODUCT_NAME} is out of date. You may update by restarting the application and following the prompts. The application will now exit.</string>
+<string name="warningConnectionProblem">Connection problem - check your connection or proxy settings.</string>
+<string name="warningIncorrectUsernamePassword">Incorrect username/password. Please try again</string>
+<string name="warningMaxFileSize">Upload failed for {0} - file may be too large</string>
+<string name="warningMusicUploadError">The following track could not uploaded: "{0}"</string>
+<string name="warningNoNetworkAvailable">There is no network available. Please try again later.</string>
+<string name="warningOutdatedFramework">Warning: Windows is not up to date. We require the latest version of ".NET Framework 4" to run without any issues. Please go to Control Panel -> Windows Update and update your system. Ensure that you install all ".NET Framework 4" updates</string>
+<string name="warningOutOfSpace">The total size of your files in your ${PRODUCT_NAME} exceeds the space available. Uploads will be paused until space is made available. Please delete some files, or click here to upgrade.</string>
+<string name="warningOverQuota">You have exceeded your quota, unable to connect</string>
+<string name="warningPathTooLong">One or more files exceed the maximum allowed path length.</string>
+<string name="warningProxyAuthenticationFailure">Proxy authentication failure - check your proxy settings.</string>
+<string name="warningRunningOutOfSpace">Using {0:0.0}% of available storage. Click here to upgrade.</string>
+<string name="warningServiceUnavailable">Service unavailable, please try again later</string>
+<string name="warningSuspendedAccount">Your account has been suspended</string>
+<string name="windowClose">Close</string>
+<string name="windowMaximise">Maximise</string>
+<string name="windowMinimise">Minimise</string>
+<string name="windowRestore">Restore</string>
+<string name="wizard1DetailLabel">Put files and folders into the ${PRODUCT_NAME} folder to sync them with the ${SHORT_PRODUCT_NAME} and across all your computers.</string>
+<string name="wizard1HeadlineLabel">${PRODUCT_NAME} Installed</string>
+<string name="wizard2DetailLabel">Access your settings from the ${PRODUCT_NAME} icon. Here you can check the progress of uploads and see how much storage you have available.</string>
+<string name="wizard2HeadlineLabel">${PRODUCT_NAME} Settings</string>
+<string name="wizard3DetailLabel">Once your files are in the ${SHORT_PRODUCT_NAME}, you can access them on the web, and also on your iOS and Android devices.</string>
+<string name="wizard3HeadlineLabel">Access your files across all your devices</string>
+<string name="wizard4DetailLabel"></string>
+<string name="wizard4HeadlineLabel"></string>
+<string name="wizard5DetailLabel"></string>
+<string name="wizard5HeadlineLabel"></string>
+<string name="wizard6Detail"></string>
+<string name="wizard6HeadlineLabel"></string>
+<string name="wizardTitle">${PRODUCT_NAME} Setup</string>
+<string name="wizardupdate1DetailLabel">Your ${PRODUCT_NAME} files have moved to a new location on your computer to make them easier to find. You’ll now find them in the ${PRODUCT_NAME} folder in your home directory. You’ll also find the folder under your Favorites.</string>
+<string name="wizardupdate1HeadlineLabel">${PRODUCT_NAME} has been updated</string>
+<string name="yesButton">Yes</string>
+<string name="zzzINST_ANALYTICS_AGREEMENT_CHECKBOX">I agree</string>
+<string name="zzzINST_ANALYTICS_AGREEMENT_HEADLINE">Send Usage Statistics</string>
+<string name="zzzINST_ANALYTICS_AGREEMENT_TEXT">Would you like to help us improve our product by sending anonymous usage data?</string>
+<string name="zzzINST_APP_RUNNING">We have detected that ${PRODUCT_NAME} is already running. Shut down ${PRODUCT_NAME} before uninstalling</string>
+<string name="zzzINST_CANNOT_FIND_PROCESS">Could not find process that has shell extension loaded. Please re-login and run Installer again</string>
+<string name="zzzINST_CONTENTLOCATIONPAGEHEADER">Your Content</string>
+<string name="zzzINST_CONTENTLOCATIONPAGEOPENCHECKBOX">Open your content folder when the uninstall is complete.</string>
+<string name="zzzINST_DELETE_FILES">All local copies of your ${SHORT_PRODUCT_NAME} files will be moved to "{0}\${PRODUCT_NAME}-{USER-NAME}", where "{USER-NAME}" is the user-name you used to log into ${PRODUCT_NAME}.\r\n\r\nIf you changed the location of your ${PRODUCT_NAME} folder, a copy of your ${SHORT_PRODUCT_NAME} content can be found in the location you specified.</string>
+<string name="zzzINST_DIRECTORY_PAGE_HEADER">Choose Install Location</string>
+<string name="zzzINST_DIRECTORY_PAGE_TEXT_TOP">Setup will install ${PRODUCT_NAME} in the following folder. To install in a different folder, click Browse and select another folder. Click Install to start the installation.</string>
+<string name="zzzINST_DOTNET_REQ">.NET 4.0 is required; Download from the web page that will now be opened, and then re-start the Installer</string>
+<string name="zzzINST_EXPLORER_REQ">We need to re-start Windows Explorer in order to install this product</string>
+<string name="zzzINST_FINISH_HEADER">Completing the ${PRODUCT_NAME} Setup Wizard</string>
+<string name="zzzINST_FINISH_REBOOT">Congratulations! The ${PRODUCT_NAME} application has been installed successfully.</string>
+<string name="zzzINST_FINISH_REBOOT_LATER">I want to manually reboot later</string>
+<string name="zzzINST_FIREWALL_ADDED">${PRODUCT_NAME} added to Windows Firewall settings; If you are using other firewalls, you will need to manually allow access for this application.</string>
+<string name="zzzINST_FIREWALL_REMOVE">${PRODUCT_NAME} removed from Windows Firewall settings</string>
+<string name="zzzINST_INSTALL_CANCEL">Installation cancelled</string>
+<string name="zzzINST_INSTALL_SUB">Please wait while ${PRODUCT_NAME} is being installed.</string>
+<string name="zzzINST_INSTALL_TOP">Installing</string>
+<string name="zzzINST_LICENSE_BOTTOM">If you accept the terms of the agreement, click the check box below. You must accept the agreement to install ${PRODUCT_NAME}. Click next to continue.</string>
+<string name="zzzINST_LICENSE_CHECK">I accept the terms of the License Agreement</string>
+<string name="zzzINST_LICENSE_DOWN">Press Page Down to see the rest of the agreement.</string>
+<string name="zzzINST_LICENSE_TOP">License Agreement</string>
+<string name="zzzINST_REBOOT_NEEDED">Reboot needed to complete. Do you wish to reboot now?</string>
+<string name="zzzINST_REMOVE_CONFIRM">Are you sure you want to completely remove ${PRODUCT_NAME} and all of its components?</string>
+<string name="zzzINST_REQUIRE_SVRPACK_2">Service Pack 2 required for this version of Windows</string>
+<string name="zzzINST_REQUIRE_SVRPACK_3">Service Pack 3 required for this version of Windows</string>
+<string name="zzzINST_SHELLBACKUP_STR">Add to ${SHORT_PRODUCT_NAME} Backups</string>
+<string name="zzzINST_SHLUNBACKUP_STR">Remove from ${SHORT_PRODUCT_NAME} Backups</string>
+<string name="zzzINST_UNINSTALL_HEADER">Uninstalling</string>
+<string name="zzzINST_UNINSTALL_SUBTITLE">Please wait while ${PRODUCT_NAME} is being uninstalled.</string>
+<string name="zzzINST_UNISTALL_CAPTION">${PRODUCT_NAME} Uninstall</string>
+<string name="zzzINST_UNKNOWN_LOCK32">Could not find process that has 32-bit Shell Extension loaded. Please re-login and run the Installer again</string>
+<string name="zzzINST_UNKNOWN_LOCK64">Could not find process that has 64-bit Shell Extension loaded. Please re-login and run the Installer again</string>
+<string name="zzzINST_URL_FOR_DOTNET">http://www.microsoft.com/download/en/details.aspx?id=22</string>
+<string name="zzzINST_WELCOMEPAGE_TEXT">This wizard will guide you through the installation of ${PRODUCT_NAME}.\r\n\r\nIt is recommended that you close all other applications before starting Setup. This will make it possible to update relevant system files without having to reboot your computer.\r\n\r\nClick Next to continue.</string>
+<string name="zzzINST_WINVER_NOT_SUPPORTED">This version of Windows is not supported</string>
+<string name="zzzUSER_CONTENT_LOCATION">Your content is located here:\r\n\r\n</string>
+</resources> 

@@ -1,0 +1,580 @@
+/* 
+  Localizable.strings
+  Synchronoss WorkSpace
+
+  Created by Krzysztof Adamski on 09/12/2013.
+  Copyright (c) 2013 Synchronoss Technologies. All rights reserved.
+*/
+
+/* Common */
+"STCommonRetry"                         = "Retry";
+"STCommonApply"                         = "Apply";
+"STCommonQuit"                          = "Quit";
+"STCommonOn"                            = "On";
+"STCommonOff"                           = "Off";
+"STCommonOK"                            = "OK";
+"STCommonCancel"                        = "Cancel";
+"STCommonCreate"                        = "Create";
+"STCommonConfirm"                       = "Confirm";
+"STCommonDelete"                        = "Delete";
+"STCommonContinue"                      = "Next";
+"STCommonUsageOf"                       = "%@ of %@";
+"STCommonDontShow"                      = "Don't show again";
+"STCancelUpload"                        = "Cancel Upload";
+"STContinueUpload"                      = "Continue Upload";
+
+
+/* BlackList */
+"STBlackListInfo"                       = "File Blacklisted";
+"STBLackListMessage"                    = "The file %@ is not of an acceptable mimetype for %@, it will not be uploaded. Contact your administrator if you think this is in error. Note you wont see this error for this type of file again";
+
+
+/* Dashboard */
+"STDashboardAppVersion"                 = "ver. %@";
+
+/* Growl Notifications */
+"STNotificationsNewFilesAddedTitle"     = "New files have been added to %@";
+"STNotificationsNewFilesAddedTitlePC"   = "New files have been added to %@";
+"STNotificationsNoConnectionTitle"      = "Connection interrupted";
+"STNotificationsNoConnectionDescription"= "No network connection available";
+
+
+"STWizDetail1"      = "Put files and folders into the ${SD_PRODUCT_NAME} folder to sync them with the cloud and across all your computers.";
+"STWizHeader1"      = "${SD_PRODUCT_NAME} Installed";
+"STWizDetail2"      = "Access your settings from the ${SD_PRODUCT_NAME} icon. Here you can check the progress of uploads and see how much storage you have available.";
+"STWizHeader2"      = "${SD_PRODUCT_NAME}  Settings";
+"STWizDetail3"      = "Once your files are in the cloud, you can access them on the web, and also on your iOS and Android devices.";
+"STWizHeader3"      = "Access your files across all your devices";
+"STWizDetail4"		 =		 "You can also access all the files and folders on your ${SD_PRODUCT_NAME} from the web. Here you can share files, create photo albums, post photos to Facebook and do loads more cool stuff.";
+"STWizHeader4"		 =		 "Web Access";
+"STWizDetail5"		 =		 "Did you know that you can also access your ${SD_PRODUCT_NAME} files and folders straight from your mobile phone or tablet, as well as being able to backup all your photos and videos automatically from your device.";
+"STWizHeader5"		 =		 "${SD_PRODUCT_NAME} for Mobile";
+"STWizDetail6"		 =		 "Did you know that you can upload your songs to ${SD_PRODUCT_NAME}? You can also select which songs to upload by artist, album and song. Simply select music from the Dashboard to upload your songs.";
+"STWizHeader6"		 =		 "Upload your songs";
+"STWizHeader1001"	  =		 "${SD_PRODUCT_NAME} has been updated";
+"STWizDetail1001"     = "Your ${SD_PRODUCT_NAME} files have moved to a new location on your computer to make them easier to find. You’ll now find them in the ${SD_PRODUCT_NAME}folder in your home directory. You’ll also find the folder under your Favorites.";
+"STWizHeader1002"	  =		 "${SD_PRODUCT_NAME} has been updated";
+"STWizDetail1002"     = "Put files and folders into the ${SD_PRODUCT_NAME} folder to sync them with the cloud and across all your computers.";
+
+"STWizFinish"		 =		 "Finish";
+"STWizNext"          =		 "Next";
+"STWizPrevious"		 =		 "Previous";
+"STWizTitle"		 =		 "${SD_PRODUCT_NAME} Setup";
+
+
+/* Selective Sync */
+"STSelectiveSyncEmpty"          =  "Empty";
+"STSelectiveSync"               =  "Selective Sync";
+"STSelectiveSyncInfo"           =  "Selected folders will be downloaded to this computer and will sync across all your devices. Unselected folders will not download but will remain in your cloud.";
+"STSelectiveSyncWarning"        =  "Unselected folders will be removed from this computer. These folders will remain in your Personal Cloud and can still be accessed from web, mobile and other computers. Unsynced data will be lost.";
+"STSelectiveSyncAll"            = "Sync all folders";
+"STSelectiveSyncNoFolders"      = "There are no folders available to selectively sync";
+
+"STSelectiveSyncUIError"        = "Failed to talk to server. Check your internet connection.";
+"STSelectiveSyncUIErrorChange"  = "The local filesystem has changed and needs to sync. Hit cancel to resume syncing.";
+
+/* Threshold Notifications */
+"STReachedUpgradeQuotaThresholdDescription"  =		 "Click here to upgrade.";
+"STReachedUpgradeQuotaThresholdTitle"		 =		 "You are using %@ of your ${SD_PRODUCT_NAME}.";
+"STPausedAfterOutOfSpace"		 =		 "The total size of your files in your ${SD_PRODUCT_NAME} exceeds the space available. Uploads will be paused until space is made available. Please delete some files, or click here to upgrade.";
+"STResumedAfterSpaceAvailable"		 =		 "There is now enough available storage on your ${SD_PRODUCT_NAME} for uploads to resume.";
+
+
+"STOutOfServerSpaceDescriptionSize"   =		 "The file %@ cannot be uploaded. You need to upgrade you account ot delete any items in the trash to continue";
+"STOutOfServerSpaceDescriptionNoSize"   =	"You need to upgrade or delete any items in the trash to continue";
+"STOutOfServerSpaceDescriptionWarningNoSize"   =	"You are approaching your limit. Choose upgrade to continue";
+
+"STOutOfServerSpaceTitle"		 =		 "Not enough space in ${SD_PRODUCT_NAME}";
+
+/* Menu */
+"STMenuUsagePlaceholderItem"            = "(Usage info available when you log in)";
+"STMenusageStatusItem"                  = "%@ (%@) of %@ Used";
+"STMenuOpenPersonalCloud"               = "Open ${SD_PRODUCT_NAME}";
+"STMenuOpenWorkspace"                   = "Open WorkSpace";
+"STMenuShowDashboard"                   = "Show Dashboard";
+"STMenuGoToWebsite"                     = "${SD_PRODUCT_NAME} Website";
+"STMenuPause"                           = "Pause";
+"STMenuShowWizard"                      = "Show Wizard";
+"STMenuResume"                          = "Resume";
+"STMenuHelp"                            = "Help";
+"STMenuLogout"                          = "Logout";
+"STMenuLogin"                           = "Login";
+"STMenuQuit"                            = "Quit ${SD_PRODUCT_NAME}";
+"STUpgradeStorageCommand"               = "Upgrade Storage";
+"STUpgradeStorageButton"                = "Get more space...";
+
+
+"STMenuOnlineHelp"                      = "Online Help";
+"STMenuWizard"                          = "Wizard";
+"STMenuAbout"                           = "About ${SD_PRODUCT_NAME}";
+"STMenuCheckForUpdates"                 = "Check for Update...";
+
+/* Login */
+"STLoginServiceDown"                    = "Service Unavailable";
+"STLoginVersionLabel"           =		 "${SD_PRODUCT_VERSION}";
+"STLogInSignUpLink"                     = "New User?";
+"STLogInProxySettingsLink"              = "Proxy";
+"STLogin"                               = "Login";
+"STLoginTitle"                          = "${SD_PRODUCT_NAME}";
+"STLoginName"                           = "Username";
+"STLoginPassword"                       = "Password";
+"STLoginRememberMe"                     = "Remember Me";
+"STLoginSucceededDescription"           = "You have logged into ${SD_PRODUCT_NAME}";
+"STLoginFailedTitle"                    = "Login failed";
+"STLoginFailedDescription"              = "Incorrect or invalid credentials. Login Failed";
+"STLoginSNCFailed"                      = "Could not retrieve configuration file from server. Please check your internet connection.";
+"STLoginAccountLockedTitle"             = "Account Locked";
+"STLoginAccountLockedDescription"       = "You’ve exceeded the number of unsuccessful password entry attempts and your account has been locked, please contact your IT Administrator to have your password reset.";
+"STLoginAccountSuspendedTitle"          = "Account Suspended";
+"STLoginAccountSuspendedDescription"    = "Your account has been suspended. Please contact your IT administrator to reset the password.";
+"STLoginIdamFailureTitle"               = "IDAM Failure";
+"STLoginIdamFailureDescription"         = "IDAM Failure";
+
+"STLoginPasswordResetTitle"             = "Reset Password";
+"STLoginPasswordResetDescription"       = "Please click on the link in the welcome email to configure your password before logging into the desktop client.";
+"STLogInForgotPasswordLink"             = "Forgot password?";
+
+/* Already running */
+"STErrorAlreadyRunning"                 =   "${SD_PRODUCT_NAME} is already running.";
+"STErrorAlreadyRunningInfo"             =	"This instance will now quit.";
+
+// Restore
+
+"STRestoreInfo"                         = "Restore Folders backed up from Synchronoss Personal Cloud";
+"STRestoreNext"                         = "Next";
+"STRestore"                             = "Restore";
+"STRestoreNoSelection"                  = "(no selection)";
+"STRestoreGettingData"                  = "Updating data for device %@";
+"STRestoreFailed"                       = "Failed to get data for device %@";
+"STRestoreNoRepo"                       = "No available backups to restore";
+"STRestoreSizeInfo"                     = "%@ files selected. Selection size %@";
+"STRestoreNotification"                 = "Restore has been scheduled - check progress in the Transfers view";
+
+
+/* Backup */
+"STAddBackupFolder"                     = "Add Folder";
+"STDashboardBackUp"                     = "Backup";
+"STStopBackingUp"                       = "Stop Backup";
+"STBackupCalculating"                   = "1 KB";
+"STBackupSize"                          = "%@";
+
+
+/* Finder Extension */
+
+"STFinderCopyTo"                        =  "Copy to %@ folder";
+"STFinderShareLinkLong"                 =  "${SD_PRODUCT_NAME} Share Link";
+"STFinderShareLink"                     =  "Share Link";
+"STFinderNoOptions"                     =  "No Options";
+"STFinderToolBarToolTip"                =  "${SD_PRODUCT_NAME}: Click the toolbar item for a menu.";
+"STFindernoItemsSelected"               =  "No Items Selected";
+
+// update failed
+"STAppUpdateErrorCodeTitle"             = "${SD_PRODUCT_NAME} Update Notification";
+"STAppUpdateFailedToExecute"            = "Could not execute the application updater component. The file may be missing or corrupted.";
+
+
+
+/*Quick Look */
+"STQuickLook"                           = "Quicklook selected file";
+"STQuickLookFinder"                     = "Reveal in Finder";
+"STQuickLookDoubleClick"                = "Double click quicklooks selected file";
+"STQuickLookFinderDoubleClick"          = "Double click quicklooks reveals in Finder";
+
+
+/*Screen Shot */
+"STScreenShotInfo"                      = "Whenever you take a screenshot we will automatically sync it to ${SD_PRODUCT_NAME}.";
+"STScreenShotTitle"                         = "Share your screen shots automatically?";
+"STScreenShotPreferences"                   = "Automatically Sync Screenshots";
+"STScreenShotNo"                            = "No, Thanks";
+"STScreenShotShareOK"                       = "Save Screenshots to ${SD_PRODUCT_NAME}";
+
+"STShareLinkClose"                      =		 "Close";
+"STShareLinkCopy"                       =		 "Share...";
+"STShareLinkDialogTitle"                =		 "Get link for %@";
+"STShareLinkLabel"                      =		 "Link for %@";
+"STShareLinkMenuItem"                   =		 "Share link";
+"STShareLinkShareUrl"                   =		 "";
+
+/*Get Public Link*/
+"STGetPublicLink"                       = "A link for %@ has been copied to your clipboard.";
+"STGetPublicLinkGenerating"             = "Generating";
+"STGetPublicLinkFailed"                 = "Failed to create a link for %@.";
+"STShareInfoTextAlready"                = "This file is already shared to all devices.\n To create a link and copy it to the clipboard or other sharing services, select Share Link";
+
+
+"STBackupInfo"                          = "Are you sure you want to stop backing up folder %@?";
+"STBackupTitle"                         = "Backup";
+"STBackupFolderPermissionFailInfo"      = "You don't have permission to back up the folder at %@";
+"STBackupFolderPermissionFail"          = "Backup Failed";
+
+/* renaming sync folder */
+/* Sync Drive Choose */
+"STSyncDriveChooserOtherText"           = "${SD_PRODUCT_NAME} folder location.";
+
+"STSyncDriveLocation"                   = "Location";
+"STSyncDriveChooserOther"               = "Change";
+"STSyncFolderInExistingPath"            = "The ${SD_PRODUCT_NAME} folder can't be moved within any existing synced or backed up folders.";
+"STSyncFolderAlreadyExistsInfo"         = "A ${SD_PRODUCT_NAME} already exists at this location.";
+"STSyncFolderPermissionFailInfo"        = "You don't have permission to create the folder at %@.";
+"STSyncFolderGenericSafeMoveFailed"     = "Failed to move from ${SD_PRODUCT_NAME} from %@ to %@. The move has been reversed.";
+"STSyncFolderGenericSafeMoveFailedTitle"     = "Unknown Failure";
+
+"STSyncFolderPermissionFail"            = "Choose New Location Failed";
+
+/* Syncing */
+"STSyncingEnded"                         = "%@ files were processed";
+"STSyncingDescription"                   = "%@ has recently synced";
+"STDeletingDescription"                  = "Files have been deleted or renamed in %@";
+
+"STSyncingPausedTitle"                  = "Synchronisation paused";
+"STSyncingPendingTitle"                 = "Synchronisation waiting…";
+"STSyncingResumedTitle"                 = "Synchronisation resuming";
+"STSyncingAllFilesSynced"               = "All files synchronised in %@";
+"STSyncingConflictedFilenameFormat"     = "%@ ( %@s conflicted copy %@)";
+
+/* Dashboard */
+
+"STDashboardSettingsSmartFolderInfo"    = "When you backup folders containing photos we'll automatically turn them into photo albums.";
+"STDashboardSettingsEnableSmartFolders" = "Enable Smart Folders";
+"STDashboardSettingsSmartFolder"        = "Smart Folders";
+"STDashboardWindowTitle"                = "${SD_PRODUCT_NAME} Dashboard";
+"STDashboardSummary"                    = "Summary";
+"STDashboardSummaryOpen"                = "Open ${SD_SHORT_PRODUCT_NAME}";
+"STDashboardActivity"                   = "Notifications";
+"STDashboardFeed"                       = "Transfers";
+"STDashboardSettings"                   = "Settings";
+"STDashboardWorkspaces"                 = "WorkSpaces";
+"STDashboardMusic"                      = "Music";
+"STDashBoardSync"                       = "Sync";
+"STiTunesParseError"                    = "iTunes Needs Consolidation";
+"STiTunesMissingAlbumName"              = "Unknown Album";
+"STiTunesFindMusicTitle"                = "${SD_PRODUCT_NAME}";
+"STITunesNotAllFilesInMusicFolder"      = "Not all of your songs in iTunes are consolidated into the iTunes music folder. If you wish to upload these songs, you should consolidate your iTunes library in iTunes.";
+"STiTunesMissingXMLFile"                = "The iTunes xml file is not in the normal place. Please choose it's position, you can find the xml path in the iTunes Preferences Advanced Tab";
+"STiTunesIncorrectXMLFile"              = "Incorrect xml file or no data";
+"STITunesLaunchAlert"                   = "iTunes needs to be launched to integrate with your music? Do you want to launch iTunes?";
+"STiTunesUploadAlert"                   = "iTunes Upload";
+"STMusicUploadAlertTitle"               = "Cancel Upload";
+"STMusicUploadAlertInfo"                = "Are you sure you want to cancel your upload? \n\n Music already uploaded will appear in ${SD_PRODUCT_NAME}";
+"STDashboardSettingsUpgradeTitle"       = "New Software version available";
+"STDashboardSettingsUgradeInfo"         = "Settings";
+
+"STiTunesUploadAlert"                   = "iTunes Upload";
+
+/* Uninstall */
+"STUInstallSomeFailedInfoText"          = "Uninstall";
+"STUInstallSomeFailedText"              = "Synchronoss Personal Cloud %@ is now available. \nYour currently installed version is %@";
+"STRepoUserName"                        = "%@'s Mac Desktop";
+
+
+/* Dashboard Music */
+
+"STMusicInfo"                               = "Upload music to ${SD_PRODUCT_NAME} and listen from all your devices";
+"STMusicFindMusic"                          = "Find Music";
+"STMusicInfoTitle"                          = "Start Upload";
+"STMusicCancel"                             = "Cancel Upload";
+"STMusicUploading"                          = "Uploading %@ of %@ songs";
+"STMusicTextInfo"                           = "%@ Songs selected, %@ required.";
+"STMusicInfoTextPlaceholder"                = "Recalculating songs size";
+"STMusicAvailableSizePlaceholder"           = "Recalculating available space";
+"STMusicAvailableSize"                      = "%@ space available.";
+"STMusicAvailableSizeError"                 = "Not Enough Space. Only %@ space available.";
+"STMusicAllArtists"                         = "All Artists";
+"STMusicAllAlbums"                          = "All Albums";
+"STMusicAllTracks"                          = "All Tracks";
+"STMusicNotLoggedIn"                        = "Music Upload information available when logged in.";
+"STMusicUploadedInfo"                       = "Uploaded %@ (%@) of %@ (%@) songs";
+"STMusicUploadedFailedInfo"                 = "Uploaded %@ (%@) of %@ (%@) songs. %@ songs failed to upload.";
+
+
+/* Move Folder */
+"STMoveOldFolder"                           = "A ${SD_PRODUCT_NAME} folder already exists at %@. Do you want to merge this content to the Cloud?";
+"STMoveOldFolderMerge"                      =		 "Merge Folders";
+"STMoveOldFolderRename"                      =		 "Merge Folder";
+"STRenameOldFolderChangeLocation"           =        "Change Location";
+
+
+/* Install */
+"STInstallConfirmInfo"                  =		 "Do you want to install ${SD_PRODUCT_NAME}?";
+"STInstallCopyErrorInfo"                =		 "Could not copy ${SD_PRODUCT_NAME} to Applications folder";
+"STInstallError"                        =		 "${SD_PRODUCT_NAME} Installation Error";
+
+
+/* Dashboard Summary */
+"STSummarySyncing"                      = "Syncing";
+"STSummaryUpdate"                       = "Update";
+"STSummarySynced"                       = "All files synced";
+"STSummaryBackedUp"                     = "All files backed up";
+"STSummaryNoBackups"                    = "No backup folders";
+"STSummaryPaused"                       = "Paused";
+"STSummaryNotLoggedIn"                  = "Name available when logged in";
+"STSummaryLoggedIn"                     = "Logged in as %@ ";
+"STSummaryPath"                         = "Local files:";
+"STSummaryStatus"                       = "Status:";
+"STSummaryWorkSpaces"                   = "Your WorkSpaces";
+"STSummaryPersonalCloud"                = "Your Personal Cloud";
+"STSummarySyncBox"                      = "Sync Status:";
+"STSummaryBackup"                       = "Backup Status:";
+"STSummaryUsageOf"                      = "You are currently using %@ (%@%%) of your %@ storage";
+"STSummaryTrash"                        = "Your trashcan is consuming %@ (%@%%) of your storage.";
+"STSummaryUsageOfSmall"                 = "Using %@ (%@%%) of %@";
+"STSummaryNotLoggedIn"                  = "Storage information available when logged in.";
+"STSummaryStorage"                      = "Storage:";
+"STSummarySelectiveSync"                = "Manage Sync Folders...";
+"STSummaryManage"                       = "Manage Backups";
+"STSummaryViewFiles"                    = "View Files";
+"STSummarySyncingWorkspace"             = "Syncing %@.";
+"STSummaryBackingupWorkspace"           = "Backing up %@.";
+"STSummaryWaiting"                      = "Waiting";
+
+/* Dashboard WorkSpaces */
+"STWorkSpaceUsage"                      = "%@ of %@";
+
+
+/* Dashboard Notifications */
+"STActivityActorAddedFile"              = "%@ added '%@' into the %@ workspace";
+"STActivityActorEditedFile"             = "%@ edited '%@' in the %@ workspace";
+"STActivityActorDeletedFile"            = "%@ deleted '%@' from the %@ workspace";
+"STActivityActorComentedFile"           = "%@ commented on '%@' in the %@ workspace";
+"STActivityNoActivities"                = "No Recent Notifications";
+
+"STActivityFileAdded"                   =       "File Added";
+"STActivityFileDeleted"                 =       "File Deleted";
+"STActivityFileCommented"               =       "File Comment";
+"STActivityFileEdited"                  =       "File Modified";
+
+/* Dashboard Transfers */
+"STTransfersDefaultText"                = "No recent transfers";
+"STLocalActivityGeneralTitle"           = "General Info";
+"STLocalActivityFileTitle"              = "File Syncs";
+
+"STLocalActivityFileUploadFailed"           = "%@";
+"STLocalActivityFileDownloadFailed"         = "%@";
+"STLocalActivityFileUploaded"               = "%@";
+"STLocalActivityFileDownloaded"             = "%@";
+"STLocalActivityUploadFilePending"          = "%@";
+"STLocalActivityDownloadFilePending"        = "%@";
+"STLocalActivityUploadFileUploading"        = "%@";
+"STLocalActivityDownloadFileDownloading"    = "%@";
+
+"STLocalActivityFileSyncFailedTooLarge"     = "Insufficient space. Clear Trash or Upgrade account";
+"STLocalActivityFileSyncFailedNotPresent"   = "File not present";
+"STLocalActivityFileSyncServerTimeout"      = "Server not available. Task will complete when available";
+"STLocalActivityFileSyncUnknown"            = "Unknown Error";
+"STLocalActivityFileSyncMissing"            = "Missing Local File";
+
+
+
+
+// Upgrade
+
+"STUpdateDatabaseTitle"                        = "Upgrading database";
+"STUpdateDatabaseInfo"                         = "Please wait while ${SD_PRODUCT_NAME} performs an update.";
+"STUpdateDatabaseInfoFiles"                    = "Finding out how many files need to be moved";
+"STUpdateDatabaseInfoFileProgress"             = "Moving %@ files (%@)";
+"STUpdateDatabaseInfoDatabase"                 = "Finding out what needs to be updated in your database";
+"STUpdateDatabaseInfoDatabaseProgress"         = "Updating %@ records in your database";
+"STUpdateDatabaseInfofinalising"               = "Making a few more changes";
+"STUpdateDatabaseInfoFinished"                 = "Upgrade complete. Press OK to continue";
+"STUpdateDatabaseErrorAbort"                   = "Upgrade has failed. Click OK to re-sync your files on the server";
+
+
+//  REname
+
+"STRenameSyncDrive"                            = "You have renamed or moved the ${SD_PRODUCT_NAME} sync folder. The folder will resync from the server.";
+"STRenameSyncDriveInfo"                        = "${SD_PRODUCT_NAME} Missing Sync Folder.";
+
+
+/* Dashboard Settings */
+"STDashboardProxyInfo"                      = "Configure proxy settings to Connect to the network.";
+"STDashboardProxyUsingInfo"                 = "Configured proxy settings to Connect to the network \"%@.\"";
+"STDashboardProxyAutoUsingInfo"                 = "${SD_PRODUCT_NAME} is using proxy auto discovery to connect to the Network %@.";
+"STPrefsProxyAuto"                          = "Auto Discovery";
+"STPrefsProxyHttp"                          = "Web Proxy(HTTP)";
+"STPrefsProxyHttps"                         = "Secure Web Proxy(HTTPS)";
+"STPrefsGeneralStorageSettings"             = "Storage";
+"STPrefsGeneralStorageUsage"                = "Percent Used";
+"STPrefsGeneralEditWorkspaces"              = "Open on web";
+"STPrefsGeneralSettingsLabel"               = "General";
+"STPrefsGeneralLaunchAtStart"               = "Add to Login Items";
+"STPrefsGeneralKeepMeSignedIn"              = "Remember Me";
+"STPrefsGeneralShowNotifications"           = "Show System Notifications";
+"STPrefsProxySettings"                      = "Proxy";
+"STPrefsProxy"                              = "Proxy:";
+"STPrefsProxySettingsButton"                = "Proxy Settings";
+"STPrefsUninstallButton"                    = "Uninstall ${SD_PRODUCT_NAME}";
+"STPrefsGeneralShowOverLays"                = "Show Overlays";
+"STPrefsGeneralOverlayExtensions"           = "Open Finder Extension Settings";
+"STPrefsGeneralShowDashboard"               = "Show Dashboard on Login";
+"STPrefsProxyError"                         = "Proxy Error";
+"STPrefsAccount"                            = "Account";
+"STPrefsDisconnectInfo"                     = "Disconnect to stop backup or change the user account.";
+"STDisconnect"                              = "Disconnect";
+
+
+/* Installation */
+"STSoftwareLicenseAgreement"                = "Software License Agreement";
+"STLicenseAgreeButton"                      = "Agree";
+"STLicenseAgreementTitle"                   = "${SD_PRODUCT_NAME}";
+"STLicenseCancelButton"                     = "Cancel";
+"STLicenseCountrySelect"                    = "Your Operator";
+"STLicenseLanguageSelect"                   = "License Language";
+"STLicensePrintButton"                      = "Print";
+"STLicenseSaveButton"                       = "Save";
+
+"STOverlaysSetupFailed"                     = "Error installing Finder extension";
+"STOverlaysSetupFailedText"                 = "Setup could not install a system extension component (Finder Icon Overlays extension).";
+
+
+
+"STStorageFoundCopyFailed"                  = "The copy could not be completed at this time";
+"STInstallConfirm"                          = "${SD_PRODUCT_NAME} Installer";
+"STInstallConfirmInfo"                      = "Do you want to install ${SD_PRODUCT_NAME}?";
+"STInstallCopyErrorInfo"                    = "Could not copy ${SD_PRODUCT_NAME} to Applications folder";
+"StInstallError"                            = "${SD_PRODUCT_NAME} Installation Error";
+"STInstallLaunchErrorInfo"                  = "Could not not launch ${SD_PRODUCT_NAME}";
+"STInstallOverwrite"                        = "${SD_PRODUCT_NAME} Installer";
+"STInstallOverwriteInfo"                    = "Do you want to overwrite the existing ${SD_PRODUCT_NAME} installation?";
+"STInstallRemoveErrorInfo"                  = "Could not overwrite existing ${SD_PRODUCT_NAME} installation";
+"STInstallUpdate"                           = "Install Available Update";
+"STAlertClose"                              = "Close";
+"STAlertConfirm"                            = "Confirm";
+
+"STChangeAccountTitle"                      = "Change Account";
+"STConfirmChangeOfAccount"                  = "Please Confirm Change of Account";
+"STConfirmChangeOfAccountInfo"              = "Please Note: Files will no longer sync to the ${SD_PRODUCT_NAME} folder used for the previous account, but no files or folders will be deleted. Content in the previous account's ${SD_PRODUCT_NAME} will not be affected.";
+"STChangeAccountFailure"                    = "Failed to rename the folder at %@. Rename or remove this folder manually and try again";
+
+
+"STWorkspacePermissionWarning"              = "Workspace Permission Changed";
+"STWorkspacePermissionDegradeWarningInfo"   = "%@ has been downgraded to a read only workspace. Click on the workspace link to read it's contents on the web.";
+"STWorkspacePermissionUpgradeWarningInfo"   = "%@ has been upgraded to a full access workspace. ${SD_PRODUCT_NAME} will now sync the workspace ";
+
+/* Tool Tip */
+"STStatusMenuConnectedToolTip"              = "${SD_PRODUCT_NAME} is connected.";
+"STStatusMenuDisconnectedToolTip"           = "${SD_PRODUCT_NAME} is disconnected.";
+"STStatusMenuErrorsToolTip"                 = "${SD_PRODUCT_NAME} experienced one or more errors while syncing.";
+"STStatusMenuPausedToolTip"                 = "${SD_PRODUCT_NAME} syncing is paused.";
+"STStatusMenuPendingToolTip"                = "${SD_PRODUCT_NAME} syncing is pending";
+"STStatusMenuSyncingToolTip"                = "${SD_PRODUCT_NAME} is syncing.";
+"STStatusMenuSyncedToolTip"                 = "${SD_PRODUCT_NAME} is synced.";
+"STNotificationsFileIgnoredDescription"     = "The file %@ was not synced because it contains disallowed characters.";
+
+"STDashboardLastActivity"                   = "Last Activity";
+
+"STOpenCommand"                             = "Open";
+"STOpenCommandInFinder"                     = "Show in Finder";
+
+"STDashBoardActivityTransfers"              = "Syncing files in %@";
+
+"STDashboardSettingsShowAdds"               = "File Added";
+"STDashboardSettingsShowDeletes"            = "File Deleted";
+"STDashboardSettingsShowChanged"            = "File Changed";
+"STDashboardSettingsShowComments"           = "Comment Added";
+
+"STDashboardSettingsShotNotifications"      = "Show Notifications";
+
+/* Files Watcher */
+"STNonWorkspaceInRootFolderInfo"                = "File / folder %@ in your ${SD_PRODUCT_NAME} is not being synced.";
+"STNonWorkspaceInRootFolderDescription"         = "You need to copy or move this file / folder into a Workspace to access it from other clients.";
+"STFilesWorkspaceDeletedInfo"                   = "Removing Workspace";
+"STFilesWorkspaceDeletedDescription"            = "Removing a Workspace will permanently delete all files and folders it contains. This is an unrecoverable action.";
+"STFilesWorkspaceDeletedConfirmationInfo"       = "Please confirm removing Workspace";
+"STFilesWorkspaceDeletedConfirmationDescription" = "You are about to permanently delete Workspace %@ and the files and folders it contains. Are you sure you want to continue?";
+
+"STFilesWorkspaceCopyNestDisallowedInfo"        = "Workspace Copied";
+"STFilesWorkspaceCopyNestDisallowedDescription" = "You have tried to copy a workspace into another workspace. The copy will be reversed";
+"STFilesWorkspaceMoveNestDisallowedInfo"        = "Workspace Moved";
+"STFilesWorkspaceMoveNestDisallowedDescription" = "You cannot move a workspace at the root level into another workspace.";
+"STFilesWorkspaceRenameDisallowedInfo"          = "This folder represents a Workspace and you not permitted to rename it.";
+"STFilesWorkspaceRenameDisallowedDescription"   = "Please contact your IT Administrator if you want to change a Workspace name.";
+"STFilesWorkspaceDeletedFailedInfo"             = "Failed to Delete";
+"STFilesWorkspaceDeletedFailedDescription"      = "You are not permitted to delete this Workspace. Please contact your IT Administrator.";
+"STFilesPersonalCloudRenameDisallowedInfo"      = "The watched folder at %@ has disappeared.";
+"STFilesPersonalCloudDisallowedDescription"     = "Click OK to undo the folder rename or move.";
+
+/*Storage Manager */
+
+"STStorageFoundCopyError"		 =		 "Could not copy files to ${SD_PRODUCT_NAME} drive";
+"STStorageFoundCopyErrorDiskFull"		 =		 "The USB drive can't be copied because there isn't enough free space.";
+"STStorageFoundWiz1Detail"		 =		 "${SD_PRODUCT_NAME} detected a storage device connected to an USB port. Do you want to copy the content of the device to the ${SD_PRODUCT_NAME} drive?";
+"STStorageFoundWiz1Header"		 =		 "USB storage device detected";
+"STStorageFoundWizTitle"		 =		 "${SD_PRODUCT_NAME} USB Device Notification";
+"STStorageWizardDontAsk"		 =		 "Don't ask me again";
+
+/*Smart Folder */
+
+"STSmartFolderCreated"                          = "Smart Folder Created";
+"STSmartFolderUpdated"                          = "Smart Folder Updated";
+
+"STSmartFolderCreatedInfo"                      = "A Smart Folder with the name %@ has been created from the folder %@";
+"STSmartFolderUpdatedInfo"                      = "The Smart Folder %@ has been updated";
+
+
+/* App Update */
+"STAppUpdateInProgress"                     = "Updating ${SD_PRODUCT_NAME}";
+"STAppUpdateCheckingForUpdates"             = "Checking for updates...";
+"STAppUpdateDownloadInProgress"             = "Downloading update...";
+"STAppUpdateNotNeededTitle"                 = "You’re up-to-date!";
+"STAppUpdateNotNeededDescription"           = "%@ %@ is currently the newest version available.";
+
+"STAppUpdateSkipThisVersion"                = "Skip This Version";
+"STAppUpdateRemindMeLater"                  = "Remind Me Later";
+"STAppUpdateInstallUpdate"                  = "Install Update";
+"STAppUpdateNewVersionAvailable"            = "A new version of %@ is available!";
+"STAppUpdateNewVersionDetails"              = "%@ %@ is now available - you have %@. Would you like to install it now?";
+"STAppUpdateReleaseNotes"                   = "Release Notes";
+
+"STAppUpdateErrorTitle"                     = "Update Error!";
+"STAppUpdateErrorDescription"               = "An error occured in retrieving update information.\nPlease try again later.";
+"STAppUpdateCancelUpdate"                   = "Cancel Update";
+
+/* Relative Time */
+"STRelativeTimeFuture"                      = "Future";
+"STRelativeTimeJustNow"                     = "Just now";
+"STRelativeTimeMinuteAgo"                   = "About a minute ago";
+"STRelativeTimeMinutesAgo"                  = "%ld minutes ago";
+"STRelativeTimeHourAgo"                     = "About an hour ago";
+"STRelativeTimeHoursAgo"                    = "%ld hours ago";
+"STRelativeTimeYesterday"                   = "Yesterday";
+"STRelativeTimeWithinWeek"                  = "%ld days ago";
+
+/* Friendly Date */
+"STFriendlyDateJustNow"                     = "Just Now";
+"STFriendlyDateOneMinute"                   = "About a minute ago";
+"STFriendlyDataOneHour"                     = "About an hour ago";
+"STFriendlyDateMultipleMins"                = "%lu minutes ago";
+"STFriendlyDateMultipleHours"               = "%lu hours ago";
+"STFriendlyDateMultipleDays"                = "%lu days ago";
+"STFriendlyDateYesterday"                   = "Yesterday";
+
+/* Application Launching */
+"STLaunchMountedDriveAlertTitle"            = "Incorrect Application Install";
+"STLaunchMountedDriveAlertDescription"      = "You should install the application by dragging its icon into the Application's folder.";
+
+/* About Window */
+"STAboutWindowTitle"                        = "${SD_PRODUCT_NAME}";
+"STAboutWindowVersion"                      = "ver. %@";
+
+/* Create WorkSpace */
+"STCreateWorkSpaceWindowTitle"              = "Create WorkSpace";
+"STCreateWorkSpaceFieldName"                = "WorkSpace Name:";
+"STCreateWorkSpaceValidationMandatory"      = "Name is required";
+"STCreateWorkSpaceValidationUnique"         = "WorkSpace already exists.";
+"STCreateWorkSpaceValidationMinLength"      = "Minimum name length is %@ characters.";
+"STCreateWorkspaceUnauthorized"             = "You don't have permission to create a WorkSpace. Please contact IT Administrator.";
+"STCreateWorkSpaceGeneral"                  = "Failed to create WorkSpace. Please contact IT Administrator.";
+"STCreateWorkSpaceFailureNameExists"        = "The workspace %@ already exists. Please choose another name, and try again";
+
+
+/* Create Backup */
+"STBackupDefaultText"                       = "You are not backing up from this computer.\n\n Click \"Add folder\" to select a folder for backup. \n\n Click \"Restore\" to download a backed up folder";
+"STCreateBackupTitle"                       = "Create Backup";
+"STCreateBackupGeneral"                     = "Failed to create backup folder %@. The folder may contain illegal characters. Please try again.";
+"STDashboardBackUpIsSubfolder"          = "‘The selected folder '%@' or a containing folder has already been selected for backup to ${SD_PRODUCT_NAME}.";
+"STDashboardBackUpIsAncestor"           = "Content within '%@' is currently marked for backup. If you continue, existing backup(s) will be removed and will be included in the '%@' backup.";
+
+
+
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mct_wifi_security_eap" comment="Application label: 802.1x EAP">802.1x EAP</string>
+    <string name="mct_wifi_security_wpa" comment="Application label: WPA PSK">WPA PSK</string>
+    <string name="mct_wifi_security_wpa2" comment="Application label: WPA2 PSK">WPA2 PSK</string>
+    <string name="mct_wifi_security_wpa_wpa2" comment="Application label: WPA/WPA2 PSK">WPA/WPA2 PSK</string>
+    <string name="mct_wifi_security_psk_generic" comment="Application label: WPA/WPA2 PSK">WPA/WPA2 PSK</string>
+    <string name="mct_wifi_security_wep" comment="Application label: WEP">WEP</string>
+    <string name="mct_wifi_disabled_password_failure" comment="Application label: Authentication problem">Authentication problem</string>
+    <string name="mct_wifi_disabled_network_failure" comment="Application label: Avoided poor Internet connection">Avoided poor Internet connection</string>
+    <string name="mct_wifi_disabled_generic" comment="Application label: Disabled">Disabled</string>
+    <string name="mct_wifi_not_in_range" comment="Application label: Not in range">Not in range</string>
+    <string name="mct_wifi_remembered" comment="Application label: Saved">Saved</string>
+    <string name="mct_wifi_secured_first_item" comment="Application label: Secured with %1$s">Secured with %1$s</string>
+    <string name="mct_wifi_secured_second_item" comment="Application label: secured with %1$s">, secured with %1$s</string>
+    <string name="mct_wifi_wps_available_first_item" comment="Application label: Protected network available">WPS available</string>
+    <string name="mct_wifi_wps_available_second_item" comment="Application label: \u0020(protected network available)">\u0020(WPS available)</string>
+    <string name="mct_wifi_conn_error_text" comment="Application label: This network may not be enabled for content transfer. Please select a different Wi-Fi network and retry scan.">This network may not be enabled for content transfer. Please select a different Wi-Fi network and retry scan.</string>
+
+    <!-- SetupWiFiNetworkFragment -->
+    <string name="mct_add_wifi_network" comment="SetupWiFiNetwork screen, label: Add Wi-Fi Network">Add Wi-Fi Network</string>
+    <string name="mct_wifi_signal_strength" comment="SetupWiFiNetwork screen, label: Signal Strength">Signal Strength</string>
+    <string name="mct_wifi_security" comment="SetupWiFiNetwork screen, label: Security">Security</string>
+    <string name="mct_wifi_network_ssid" comment="SetupWiFiNetwork screen, label: Network SSID">Network SSID</string>
+    <string name="mct_wifi_enter_ssid" comment="SetupWiFiNetwork screen, label: Enter the SSID">Enter the SSID</string>
+    <string name="mct_wifi_password" comment="SetupWiFiNetwork screen, label: password">Password</string>
+    <string name="mct_wifi_show_password" comment="SetupWiFiNetwork screen, label: Show Password">Show Password</string>
+    <string name="mct_wifi_saving_text" comment="SetupWiFiNetwork screen, label: Saving will enable your device to automatically connect to this network when in range.">Saving will enable your device to automatically connect to this network when in range.</string>
+    <string name="mct_wifi_cancel" comment="SetupWiFiNetwork screen, button text: Cancel">Cancel</string>
+    <string name="mct_wifi_save" comment="SetupWiFiNetwork screen, button text: Save">Save</string>
+
+    <!-- SelectWiFiNetworkFragment -->
+    <string name="mct_select_wifi_network" comment="SelectWiFiNetwork screen, label: Select Wi-Fi Options">Select Wi-Fi Network</string>
+    <string name="mct_no_wifi_networks_found_text" comment="SelectWiFiNetwork screen, label: Connect later when a network is in range, or manually add a network.">Connect later when a network is in range, or manually add a network.</string>
+    <string name="mct_wifi_scan_button" comment="SelectWiFiNetwork screen, button: Scan">Scan</string>
+    <string name="mct_wifi_next_button" comment="SelectWiFiNetwork screen, button: Next">Next</string>
+    <string name="mct_wifi_fail_to_scan" comment="SelectWiFiNetwork screen, label: Can\'t scan for networks">Can\'t scan for networks</string>
+    <string name="mct_no_wifi_networks_found" comment="SelectWiFiNetwork screen, label: No Wi-Fi Options">No Wi-Fi Networks Found</string>
+    <string name="mct_wifi_empty_list_wifi_off" comment="SelectWiFiNetwork screen, label: To see available networks, turn Wi-Fi on.">To see available networks, turn Wi-Fi on.</string>
+
+    <!-- ContentSummaryAdapter -->
+    <string name="mct_content_summary_details" comment="Transfer summary adapter: %1$s/%2$s transferred (%3$s/%4$s)">%1$s/%2$s transferred (%3$s/%4$s)</string>
+    <string name="mct_content_summary_error_network" comment="Transfer summary adapter: These files did not transfer because of Network Disconnection">These files did not transfer because of Network Disconnection</string>
+    <string name="mct_content_summary_error_default" comment="Transfer summary adapter: These files did not transfer because of Insufficient Space">These files did not transfer because of Insufficient Space</string>
+    <string name="mct_content_summary_partially_transfered_label" comment=" (%1$s partial)">" (%1$s partial)"</string>
+    <string name="mct_content_summary_partially_transfered_item" comment="partially transferred '%1$s'">"partially transferred '%1$s'"</string>
+    <string name="mct_content_summary_partially_transfered_attribute" comment="\nskipped '%1$s' (%2$s)">"\nskipped '%1$s' (%2$s)"</string>
+
+    <!-- Restore notifications -->
+    <string name="mct_restore_notification_progress" comment="Notification: Restoring %1$s %2$s of %3$s">Restoring %1$s %2$s of %3$s</string>
+    <string name="mct_restore_notification_options" comment="Notification: Tap to view options">Tap to view options</string>
+    <string name="mct_restore_notification_complete" comment="Notification: Restore Complete">Restore Complete</string>
+    <string name="mct_restore_notification_restored" comment="Notification: Restored:">Restored:</string>
+    <string name="mct_restore_notification_canceled" comment="Notification: Restore Canceled">Restore Canceled</string>
+    <string name="mct_restore_notification_resume" comment="Notification: %1$s %2$s Remaining">%1$s %2$s Remaining</string>
+
+    <string name="mct_restore_notification_contacts" comment="Notification: Contacts">Contacts</string>
+    <string name="mct_restore_notification_sms" comment="Notification: SMS">SMS</string>
+    <string name="mct_restore_notification_mms" comment="Notification: MMS">MMS</string>
+    <string name="mct_restore_notification_call_logs" comment="Notification: Call Logs">Call Logs</string>
+
+    <!-- Content Selection Row Title format strings -->
+    <string name="mct_selection_row_format" comment="MCT Selection row: %1$s %2$s">%1$s %2$s</string>
+    <string name="mct_selection_row_format_with_new_link" comment="MCT Selection row: %1$s %2$s (%3$s New)">%1$s %2$s (##%3$s New##)</string>
+
+    <!-- Default messaging application -->
+    <string name="mct_messaging_unknown_name" comment="File name for hashtable">Unknown</string>
+    <string name="mct_messaging_change_sms_app" comment="Button label: Change SMS App">Change SMS App</string>
+    <string name="mct_messaging_send_sms_message" comment="Application label. To send a message you need to change back to your default messaging application.">To send a message you need to change back to your default messaging application.</string>
+    <string name="mct_messaging_sms_restore_ongoing_text" comment="Application label. SMS reply text: If you need to reply with a message, tap Change SMS app to switch back to your previous messaging (SMS) app.\n\n If restoring not finished, that will cancel your restore.">If you need to reply with a message, tap Change SMS app to switch back to your previous messaging (SMS) app.\n\n If restoring not finished, that will cancel your restore.</string>
+    <string name="mct_messaging_message_restore_finished" comment="Application label. SMS/MMS new message: Messages restore finished">Messages restore finished</string>
+    <string name="mct_messaging_save" comment="Text for a save button">Save</string>
+    <string name="mct_messaging_cancel" comment="Text for a cancel button">Cancel</string>
+    <string name="mct_messaging_mms_details" comment="Notification label. MMS new message details: Size: %1$d Expires: %2$s">Size: %1$s Expires: %2$s</string>
+    <string name="mct_messaging_new_message" comment="Notification label. SMS/MMS new message: New message from %s">New message from %s</string>
+    <string name="mct_messaging_sms_call" comment="Application label. SMS display message: Call">Call</string>
+
+</resources>

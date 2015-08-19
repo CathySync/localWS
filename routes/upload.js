@@ -1,18 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var busboy = require('connect-busboy'); //middleware for form/file upload
-var path = require('path');     //used for file path
 var fse = require('fs-extra');
 var parse = require('csv-parse');
-//var parser = require('stream').Transfer;
-var async = require('async');
+var transform = require('stream-transform');
 
 
 router.post('/', function(req, res, next) {
     console.log("POST CALL");
         var fstream;
         req.pipe(req.busboy);
-        req.busboy.on('file', function (fieldname, file, filename) {
+        req.busboy.on('file', function (fieldname, file, filename, encoding) {
             
             console.log("Uploading: " + filename);
             //Path where image will be uploaded
@@ -22,16 +19,16 @@ router.post('/', function(req, res, next) {
             
             fstream = fse.createWriteStream(relLocation);
             file.pipe(fstream);
-            
             fstream.on('close', function () {    
                 console.log("Upload Finished of " + filename);
-                
+                var responseData = "";
                 if(fileExtension.toLowerCase() === "csv"){
                     parseCSV(relLocation);
                     //console.log(csvData);
-                    //res.json(csvData);
+                    //res.write(responseData);
                 }
-                res.sendStatus(200);
+                //res.writeHead(200, { 'Connection': 'close' });
+                res.end(responseData);
             });
         });
 
@@ -47,18 +44,23 @@ router.get('/', function(req, res) {
     res.send("upload service alive")
 });
 /**
- * @description Parses a csv file, returning an array of line arrays. 
+ * @description Parses a comma delimited csv file, returning an array of line arrays. 
  * @param {String} floc
  * @returns {undefined}
  */
 function parseCSV(floc){
     
-    var parser = parse({delimiter: ','}, function (err, data) {
-        console.log(data)
-        return data;
+    var output = [];
+    var parser = parse({delimiter: ',', skip_empty_lines:true});
+    var uploadedInput = fse.createReadStream(floc);
+        uploadedInput.setEncoding("utf8");
+        
+    var transformer = transform(function(record){
+        output.push(record);
     });
-
-    fse.createReadStream(floc).pipe(parser);
+    uploadedInput.pipe(parser).pipe(transformer);
+console.log(output);
+return output;
 }
 /**
  * Get the extension of the file being uploaded. Use for parser factory and destination folder
