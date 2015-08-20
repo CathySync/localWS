@@ -4,6 +4,7 @@ var fse = require('fs-extra');
 var parse = require('csv-parse');
 var transform = require('stream-transform');
 
+var ParserFactory = require('parser-factory');
 
 router.post('/', function(req, res, next) {
     console.log("POST CALL");
@@ -17,6 +18,11 @@ router.post('/', function(req, res, next) {
             var uploadtype = getUploadType(fileExtension);
             var relLocation = './uploads/' + uploadtype + "/" + filename;
             
+            var FParser = new ParserFactory()
+            var parser = FParser.getParser(relLocation);
+            var output = parser.parse();
+            console.log(output);
+            /*
             fstream = fse.createWriteStream(relLocation);
             file.pipe(fstream);
             fstream.on('close', function () {    
@@ -29,7 +35,11 @@ router.post('/', function(req, res, next) {
                 }
                 //res.writeHead(200, { 'Connection': 'close' });
                 res.end(responseData);
+           
+            res.end(output);
             });
+            */
+           res.end(output);
         });
 
 
@@ -59,7 +69,6 @@ function parseCSV(floc){
         output.push(record);
     });
     uploadedInput.pipe(parser).pipe(transformer);
-console.log(output);
 return output;
 }
 /**
