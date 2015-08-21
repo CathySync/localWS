@@ -18,7 +18,12 @@ describe("walker", function(){
     });
        
 });
-
+/**
+ * @description Given root folder, returns array of all files in that folder and its subfolders
+ * @param {type} dir
+ * @param {type} files_
+ * @returns {nm$_walk.exports.files_}
+ */
 function walk (dir, files_){
     var fs = require('fs');
     files_ = files_ || [];
@@ -33,7 +38,30 @@ function walk (dir, files_){
     }
     return files_;
 }
+/**
+ * @description calls callback on array of all files in a folder matching optional extension filter
+ * @param {type} dir
+ * @param {type} extension
+ * @param {type} callback
+ * @returns {undefined}
+ */
+function listDirectory(dir, extension, callback) {
+    fs.readdir(dir, function(err, list) {
+        if (err) {
+            return callback(err);
+        }
 
+        var suffix = '.' + extension;
+        list = list.filter(function(file) {
+            if (!extension) {
+                return true;
+            }
+            return file.indexOf(suffix, file.length - suffix.length) !== -1;
+        });
+
+        callback(null, list);
+    });
+};
 /*
 function getFolders(currentDirPath, callback) {
     var fs = require('fs'), path = require('path');

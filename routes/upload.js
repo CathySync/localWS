@@ -1,9 +1,7 @@
-var express = require('express');
+var express;
+express = require('express');
 var router = express.Router();
 var fse = require('fs-extra');
-var parse = require('csv-parse');
-var transform = require('stream-transform');
-
 var ParserFactory = require('parser-factory');
 
 router.post('/', function(req, res, next) {
@@ -11,38 +9,23 @@ router.post('/', function(req, res, next) {
         var fstream;
         req.pipe(req.busboy);
         req.busboy.on('file', function (fieldname, file, filename, encoding) {
-            
             console.log("Uploading: " + filename);
+            
             //Path where image will be uploaded
             var fileExtension = getFileExtension(filename);
             var uploadtype = getUploadType(fileExtension);
             var relLocation = './uploads/' + uploadtype + "/" + filename;
-            
-            var FParser = new ParserFactory()
-            var parser = FParser.getParser(relLocation);
-            var output = parser.parse();
-            console.log(output);
-            /*
             fstream = fse.createWriteStream(relLocation);
             file.pipe(fstream);
-            fstream.on('close', function () {    
-                console.log("Upload Finished of " + filename);
-                var responseData = "";
-                if(fileExtension.toLowerCase() === "csv"){
-                    parseCSV(relLocation);
-                    //console.log(csvData);
-                    //res.write(responseData);
-                }
-                //res.writeHead(200, { 'Connection': 'close' });
-                res.end(responseData);
-           
-            res.end(output);
+            
+            //The file has been uploaded to relLocation
+            fstream.on('close', function () {
+                var parser = new ParserFactory().getParser(relLocation);
+                var output = parser.parse();
+                console.log(output);
+                res.end();
             });
-            */
-           res.end(output);
         });
-
-
 });
 
 router.options('/', function(req, res) {
