@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+
 /* GET users array. */
 router.get('/', function(req, res) {
     var conn = req.conn;
@@ -24,10 +25,8 @@ router.post('/', function(req, res) {
                 res.json(results);
             }
         }
-        //fall through
-        console.log("not authenticated");
+        //fall through, return fail on authentication
         res.end(false);
-            
     });
 });
 

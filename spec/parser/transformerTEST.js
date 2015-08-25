@@ -1,9 +1,6 @@
-
 var fs = require('fs');
 var path = require('path');
 var csv = require("csv");
-
-
 
 var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\localWS\\uploads\\testData\\csv";
 //var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\TranslationPortal2\\src\\testInputFiles\\csv\\";
@@ -17,11 +14,14 @@ for(i=0; i<files.length;i++) {
     fstream = fs.createReadStream(filePath);
     fstream.setEncoding("utf8");
     var lines = [];
-    fstream.pipe(csv.parse({delimiter:",", comment:"/*", relax:false})) //Array per line
+    
+    fstream.pipe(csv.parse({delimiter:",", comment:"/*", relax:true})) //Array per line
         .pipe(csv.transform(function(record){ //callback per line
-           return record.map(function(value){ //callback per col
-             return {"capv_string":value};
-           });
+                var line = []; 
+                record.map(function(value){ //callback per col
+                        line.push({"capv_string":value});
+                    });
+                return line;
         }))
         .pipe(csv.stringify())
         .pipe(process.stdout);

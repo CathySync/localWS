@@ -22,8 +22,7 @@ router.post('/', function(req, res, next) {
             fstream.on('close', function () {
                 var parser = new ParserFactory().getParser(relLocation);
                 var output = parser.parse();
-                console.log(output);
-                res.end();
+                output.pipe(res);
             });
         });
 });

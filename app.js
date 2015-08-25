@@ -8,9 +8,15 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
+
+var companies = require('./routes/companies');
+var projects = require('./routes/projects');
+var tasks = require('./routes/tasks');
+var translations = require('./routes/translations');
+
 var users = require('./routes/users');
 var upload = require('./routes/upload');
-var parseTest = require('./routes/parseTest');
+
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({
@@ -24,13 +30,7 @@ var connection = mysql.createConnection({
 
 
 connection.connect();
-/*
-connection.query('SELECT * FROM `company`', function(error, results, next){
-    var resp = JSON.stringify(results);
-    console.log(resp)
-});
-connection.close();
-*/
+
 var app = express();
 
 //CORS middleware
@@ -38,7 +38,6 @@ var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', 'http://localhost:8888');
     res.header('Access-Control-Allow-Methods', 'GET PUT POST DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
-
     next();
 }
 // view engine setup
@@ -65,7 +64,10 @@ app.use(allowCrossDomain);
 app.use('/', routes);
 app.use('/users', users);
 app.use('/upload', upload);
-app.use("/parseTest",parseTest);
+app.use('/companies',companies);
+app.use('/projects', projects);
+app.use('/tasks', tasks);
+app.use('/translations', translations);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
