@@ -1,7 +1,7 @@
 var express;
 express = require('express');
 var router = express.Router();
-var fse = require('fs-extra');
+var fse = require('fs');
 var ParserFactory = require('parser-factory');
 
 router.post('/', function(req, res, next) {

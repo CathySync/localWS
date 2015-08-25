@@ -1,38 +1,35 @@
-var Transform = require('stream').Transform;
+
 var fs = require('fs');
 var path = require('path');
+var csv = require("csv");
 
-var transformer = new Transform();
-transformer._transform = function(data, encoding, done) {
-    this.push(data);
-    done();
-};
 
-var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\localWS\\uploads\\testData";
+
+var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\localWS\\uploads\\testData\\csv";
+//var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\TranslationPortal2\\src\\testInputFiles\\csv\\";
 var files = walk(testDir);
 
 var filePath, fstream;
-var globalContents = [];
-var contents = [];
 
 for(i=0; i<files.length;i++) {
-    
-    filePath = path.join(testDir, files[i]);
 
+    filePath = path.join(testDir, files[i]);
     fstream = fs.createReadStream(filePath);
     fstream.setEncoding("utf8");
-    
-    //happens AFTER loop exits. Get the transformer to do it??
-    fstream.on('data', function(data){
-        console.log(data);
-        contents.push(data);
-    });
-    globalContents.push(contents);
-    contents = [];
-    fstream = null;
+    var lines = [];
+    fstream.pipe(csv.parse({delimiter:",", comment:"/*", relax:false})) //Array per line
+        .pipe(csv.transform(function(record){ //callback per line
+           return record.map(function(value){ //callback per col
+             return {"capv_string":value};
+           });
+        }))
+        .pipe(csv.stringify())
+        .pipe(process.stdout);
 }
 
-console.log(globalContents);
+function toUpper(line){
+    return line.toString().toUpperCase();
+}
 
 function walk (dir, files_){
     var fs = require('fs');

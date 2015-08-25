@@ -18,11 +18,13 @@ var connection = mysql.createConnection({
   port : 3306,
   user     : 'root',
   password : 'root',
-  database : 'localisationportal'
+  database : 'localisationportal',
+  stringifyObjects:true
 });
 
-/*
+
 connection.connect();
+/*
 connection.query('SELECT * FROM `company`', function(error, results, next){
     var resp = JSON.stringify(results);
     console.log(resp)
@@ -77,23 +79,23 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
+    app.use(function(err, req, res, next) {
+        res.status(err.status || 500);
+        res.render('error', {
+            message: err.message,
+            error: err
+      });
     });
-  });
 }
 
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: {}
+    });
 });
 
 
