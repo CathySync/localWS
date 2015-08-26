@@ -11,6 +11,7 @@ router.get('/', function(req, res) {
 });
 
 /*POST login credentials*/
+/**************** YOU ARE NOT ESCAPING USER INPUT AT ALL. *****************/
 /**************** YOU ARE PUTTING THE USER RECORD ON CLIENT, PASSWORD AND ALL *****************/
 router.post('/', function(req, res) {
     var conn = req.conn;
@@ -20,7 +21,7 @@ router.post('/', function(req, res) {
         if(err) throw err;
         var recUser = results[0];
         if(recUser){
-            var authenticated = recUser.user_password == usLoginInput.pw;
+            var authenticated = recUser.user_password.toString() === usLoginInput.pw.toString();
             if(authenticated){
                 res.json(results);
             }

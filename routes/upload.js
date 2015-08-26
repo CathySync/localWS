@@ -1,7 +1,7 @@
 var express;
 express = require('express');
 var router = express.Router();
-var fse = require('fs');
+var fs = require('fs');
 var ParserFactory = require('parser-factory');
 
 router.post('/', function(req, res, next) {
@@ -13,19 +13,24 @@ router.post('/', function(req, res, next) {
             
             //Path where image will be uploaded
             var fileExtension = getFileExtension(filename);
-            var uploadtype = getUploadType(fileExtension);
-            var relLocation = './uploads/' + uploadtype + "/" + filename;
-            fstream = fse.createWriteStream(relLocation);
+            var uploadType = getUploadType(fileExtension);
+            var relLocation = './uploads/' + uploadType + "/" + filename;
+            fstream = fs.createWriteStream(relLocation);
             file.pipe(fstream);
             
             //The file has been uploaded to relLocation
             fstream.on('close', function () {
-                var parser = new ParserFactory().getParser(relLocation);
-                var output = parser.parse();
-                output.pipe(res);
-                //res.write(output);
-                //res.end(200);
-                
+                if(uploadType === 'images'){
+                    res.status(200).end();
+                } else {
+                    console.log("parsing: " + filename);
+                    var parser = new ParserFactory().getParser(relLocation);
+                    var output = parser.parse();
+                    output.pipe(res, function(){console.log("output piped")});
+                    console.log("output sent.");
+                    //res.write(output);
+                    //res.status(200).end();
+                }
             });
         });
 });
@@ -36,7 +41,17 @@ router.options('/', function(req, res) {
 
 router.get('/', function(req, res) {
     console.log("GET CALL");
-    res.send("upload service alive")
+    res.send("upload service alive");
+});
+
+/* GET images array. */
+router.get('/images/:img', function(req, res) {
+    var path = req.path.split("/");
+    var reqImage = path[path.length-1];
+    
+    var fileImage = fs.readFileSync('./uploads/images/'+reqImage);
+    res.writeHead(200, {'Content-Type': 'image/gif' });
+    res.end(fileImage, 'binary');
 });
 /**
  * @description Parses a comma delimited csv file, returning an array of line arrays. 
@@ -47,7 +62,7 @@ function parseCSV(floc){
     
     var output = [];
     var parser = parse({delimiter: ',', skip_empty_lines:true});
-    var uploadedInput = fse.createReadStream(floc);
+    var uploadedInput = fs.createReadStream(floc);
         uploadedInput.setEncoding("utf8");
         
     var transformer = transform(function(record){
@@ -73,7 +88,7 @@ function getFileExtension(fn){
  */
 function getUploadType(fileExtension){
 if(!fileExtension) return;
-
+    fileExtension = fileExtension.toLowerCase();
     var uploadType = "";
     switch(fileExtension){
         case "jpg":
@@ -90,7 +105,22 @@ if(!fileExtension) return;
             break;
         default: uploadType =  "";
     }
-    return uploadType
+    return uploadType;
+}
+
+function walk (dir, files_){
+    var fs = require('fs');
+    files_ = files_ || [];
+    var files = fs.readdirSync(dir);
+    for (var i in files){
+        var name = dir + '/' + files[i];
+        if (fs.statSync(name).isDirectory()){
+            walk(name, files_);
+        } else {
+            files_.push(files[i]);
+        }
+    }
+    return files_;
 }
 
 module.exports = router;
