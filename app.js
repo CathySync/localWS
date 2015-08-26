@@ -16,6 +16,7 @@ var translations = require('./routes/translations');
 
 var users = require('./routes/users');
 var upload = require('./routes/upload');
+var images = require('./routes/images');
 
 
 var mysql = require('mysql');
@@ -68,6 +69,7 @@ app.use('/companies',companies);
 app.use('/projects', projects);
 app.use('/tasks', tasks);
 app.use('/translations', translations);
+app.use('/images', images);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

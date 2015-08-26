@@ -23,6 +23,9 @@ router.post('/', function(req, res, next) {
                 var parser = new ParserFactory().getParser(relLocation);
                 var output = parser.parse();
                 output.pipe(res);
+                //res.write(output);
+                //res.end(200);
+                
             });
         });
 });
