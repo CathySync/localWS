@@ -1,21 +1,22 @@
 describe("parser", function(){
-    var Transform = require('stream').Transform;
     var fs = require('fs');
     var path = require('path');
-    var transformer = new Transform();
-        transformer._transform = function(data, encoding, done) {
-            this.push(data);
-            console.log(data);
-        done();
-    };
+    var ParserFactory = require("parser-factory");
+    var FParser = new ParserFactory();
+
     var testDir = "C:\\Users\\ajon0002\\Documents\\NetBeansProjects\\localWS\\uploads\\testData";
     var files = listDirectory(testDir);
     var filePath, fstream;
     for(var file in files){
         filePath = path.join(testDir, file);
-        fstream = fs.createReadStream(filePath);
-        fstream.pipe(transformer);
-        fstream.read()
+        console.log(filePath);
+        
+        var parser = FParser.getParser(filePath);
+        var output = parser.parse();
+        output.pipe(process.stdout);
+        //fstream = fs.createReadStream(filePath);
+        //fstream.pipe(transformer);
+        //fstream.read()
     }
 
 /**
