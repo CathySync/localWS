@@ -29,7 +29,6 @@ var connection = mysql.createConnection({
   stringifyObjects:true
 });
 
-
 connection.connect();
 
 var app = express();
@@ -37,12 +36,9 @@ var app = express();
 //CORS middleware
 //Allow all to this application from localhost or synchronoss-localization-tool.com domains
 var allowCrossDomain = function(req, res, next) {
-    
-    if(req.hostname == "localhost" || req.hostname == "synchronoss-localization-tool.com"){
-        res.header('Access-Control-Allow-Origin', "http://"+req.hostname);
-        }
+    res.header('Access-Control-Allow-Origin', "*");
     res.header('Access-Control-Allow-Methods', 'GET PUT POST DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.header('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept');
     next();
 };
 // view engine setup
@@ -64,8 +60,11 @@ app.use(function(req, res, next){
     req.conn = connection;
     next();
 });
-app.use(busboy());
+
+
 app.use(allowCrossDomain);
+app.use(busboy());
+
 app.use('/', routes);
 app.use('/users', users);
 app.use('/upload', upload);

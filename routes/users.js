@@ -22,8 +22,9 @@ router.post('/', function(req, res) {
         var recUser = results[0];
         if(recUser){
             var authenticated = recUser.user_password.toString() === usLoginInput.pw.toString();
+            var userId = recUser.user_userid;
             if(authenticated){
-                console.log("Authenticated");
+                //console.log("Authenticated");
                 res.json(results);
             }
         }
